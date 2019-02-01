@@ -54,6 +54,10 @@
 *.abc filter=lfs diff=lfs merge=lfs -text
 *.3dm filter=lfs diff=lfs merge=lfs -text
 
+# Make Human
+*.thumb filter=lfs diff=lfs merge=lfs -text
+*.mhm filter=lfs diff=lfs merge=lfs -text
+
 # Build
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.pdb filter=lfs diff=lfs merge=lfs -text
