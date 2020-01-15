@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: f465620c616052442b949c718cc9ae01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2472285259821850802
+    second: hairblowing_0
+  - first:
+      213: 5091013250386247283
+    second: hairblowing_1
+  - first:
+      213: -8015380685157041023
+    second: hairblowing_2
+  - first:
+      213: 216843905158147615
+    second: hairblowing_3
+  - first:
+      213: -2583603499408349707
+    second: hairblowing_4
+  - first:
+      213: -6885834519403361706
+    second: hairblowing_5
+  - first:
+      213: 7065132372183534548
+    second: hairblowing_6
+  - first:
+      213: 4736227886861188477
+    second: hairblowing_7
+  - first:
+      213: 3234849456420107547
+    second: hairblowing_8
+  - first:
+      213: 8779499485340455753
+    second: hairblowing_9
+  - first:
+      213: -7333801670723900551
+    second: hairblowing_10
+  - first:
+      213: 3380270627080892059
+    second: hairblowing_11
+  - first:
+      213: -3672877128643435623
+    second: hairblowing_12
+  - first:
+      213: -6286624209897363815
+    second: hairblowing_13
+  - first:
+      213: 6767684364486203953
+    second: hairblowing_14
+  - first:
+      213: -1130048790710730933
+    second: hairblowing_15
+  - first:
+      213: -839863404286436899
+    second: hairblowing_16
+  - first:
+      213: 2878464132921362839
+    second: hairblowing_17
+  - first:
+      213: 8676481638314738474
+    second: hairblowing_18
+  - first:
+      213: -205252412924403813
+    second: hairblowing_19
+  - first:
+      213: -372881520222870449
+    second: hairblowing_20
+  - first:
+      213: 4310533090276109754
+    second: hairblowing_21
+  - first:
+      213: -6853711353590767314
+    second: hairblowing_22
+  - first:
+      213: -3782018506447768769
+    second: hairblowing_23
+  - first:
+      213: 8625539785562812300
+    second: hairblowing_24
+  - first:
+      213: -2640023838980732167
+    second: hairblowing_25
+  - first:
+      213: 2122502109397444846
+    second: hairblowing_26
+  - first:
+      213: 902399021923589083
+    second: hairblowing_27
+  - first:
+      213: -6551370652594093251
+    second: hairblowing_28
+  - first:
+      213: 7165240430303632027
+    second: hairblowing_29
+  - first:
+      213: 7261108775120762180
+    second: hairblowing_30
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hairblowing_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2672
+        width: 121
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940cb01eff89def4eb1dc5854a28c9e3
+      internalID: 2472285259821850802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_1
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2672
+        width: 122
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bacae2c8080fe45b255f595271c46e
+      internalID: 5091013250386247283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_2
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 2672
+        width: 123
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110c8c396bb3e614fbe04c46be689003
+      internalID: -8015380685157041023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_3
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2672
+        width: 121
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2b3527c01a54d4b9b27e50242cecc0
+      internalID: 216843905158147615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_4
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2672
+        width: 122
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76427e1201cc95941bb0a926fabe74d3
+      internalID: -2583603499408349707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_5
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2672
+        width: 123
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354a3362700d0eb4497bae6bb4a5f304
+      internalID: -6885834519403361706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2159
+        width: 121
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5902fb2e4f0a954abd5a303f4ae89b7
+      internalID: 7065132372183534548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2159
+        width: 122
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd0938efe0c42b43ad78dd2c96619fe
+      internalID: 4736227886861188477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_8
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 2159
+        width: 123
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9f534206fa6c94786fb32d8ac24424
+      internalID: 3234849456420107547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_9
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2159
+        width: 121
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0f978f9465b274db234cfed9176e4c
+      internalID: 8779499485340455753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_10
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2159
+        width: 122
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2942b8e6318925c4baf9bb0066395e78
+      internalID: -7333801670723900551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_11
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2159
+        width: 123
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f3bc3c2ff98cb4ca9ab6073b89da48
+      internalID: 3380270627080892059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1647
+        width: 121
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c94b58ad010814db43d02d2ffd59cb
+      internalID: -3672877128643435623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_13
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1647
+        width: 122
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fcb99e26ff89c41adf75277e4940de
+      internalID: -6286624209897363815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_14
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1647
+        width: 123
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277e3c26a2fe8fa4b8569bbe51aae813
+      internalID: 6767684364486203953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_15
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1647
+        width: 114
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3070db7bb1dc8be42b9307cfaca6b2fe
+      internalID: -1130048790710730933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_16
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1647
+        width: 114
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5738a3a0fb1858d43a876fc0134a45b7
+      internalID: -839863404286436899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_17
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1647
+        width: 114
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fd2968ee3d4764a8f81cde4d6981bb
+      internalID: 2878464132921362839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1136
+        width: 114
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e085fef1c3a424b9ee5471d3b85b8d
+      internalID: 8676481638314738474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_19
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1136
+        width: 114
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21a8c20cbfa8d140b156100711dacda
+      internalID: -205252412924403813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_20
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1136
+        width: 114
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b924e1a9b36a2bd4aabdeab8cf768de0
+      internalID: -372881520222870449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_21
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1136
+        width: 114
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a47c3f19b0f7741be30bdeb5727be3
+      internalID: 4310533090276109754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_22
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1136
+        width: 114
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6bc221d849aa546a51c12027fe71b1
+      internalID: -6853711353590767314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_23
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 1136
+        width: 114
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e5c162450893c42880d65043b19777
+      internalID: -3782018506447768769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 623
+        width: 114
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7548eeea1183deb48b12c29163489904
+      internalID: 8625539785562812300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_25
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 623
+        width: 122
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b934d959b04916847adb75c1f5a00426
+      internalID: -2640023838980732167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_26
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 623
+        width: 123
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb7de5a9a0aaad46b23de8c8b7e1e78
+      internalID: 2122502109397444846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_27
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 623
+        width: 121
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524fc4bb08267c140b62b631a83d7805
+      internalID: 902399021923589083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_28
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 623
+        width: 122
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4638b076a7a9e1f48b9d214f2cabc3f2
+      internalID: -6551370652594093251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_29
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 623
+        width: 123
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfa18cab849f464886e19c5bcfa005c
+      internalID: 7165240430303632027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hairblowing_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 111
+        width: 121
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be17ec1ca426cc44d80a433020cd316d
+      internalID: 7261108775120762180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

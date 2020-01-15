@@ -1,0 +1,2479 @@
+fileFormatVersion: 2
+guid: b8c52de8b706c854e8ce534b5bc650bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6910797550231125517
+    second: skating_0
+  - first:
+      213: 6160002251885829193
+    second: skating_1
+  - first:
+      213: 3190228866048442241
+    second: skating_2
+  - first:
+      213: -7829186939031081674
+    second: skating_3
+  - first:
+      213: -4987373021920912593
+    second: skating_4
+  - first:
+      213: 232878771887529528
+    second: skating_5
+  - first:
+      213: -1190515157809964945
+    second: skating_6
+  - first:
+      213: 9045703513981765
+    second: skating_7
+  - first:
+      213: 4771503038189470076
+    second: skating_8
+  - first:
+      213: 5374892123764373918
+    second: skating_9
+  - first:
+      213: -5520939280500913284
+    second: skating_10
+  - first:
+      213: -717349499122625841
+    second: skating_11
+  - first:
+      213: -9202790696080038140
+    second: skating_12
+  - first:
+      213: -7335118721115352988
+    second: skating_13
+  - first:
+      213: 6514742870009736242
+    second: skating_14
+  - first:
+      213: 6028626854226637607
+    second: skating_15
+  - first:
+      213: 95929742723618130
+    second: skating_16
+  - first:
+      213: 8608211641678615755
+    second: skating_17
+  - first:
+      213: 2883296900176142620
+    second: skating_18
+  - first:
+      213: -7228518219440875729
+    second: skating_19
+  - first:
+      213: 239194511950949392
+    second: skating_20
+  - first:
+      213: -842195784579963341
+    second: skating_21
+  - first:
+      213: 8725801138562322580
+    second: skating_22
+  - first:
+      213: 9081127821168405623
+    second: skating_23
+  - first:
+      213: -6041424571169187116
+    second: skating_24
+  - first:
+      213: 9198856201905999141
+    second: skating_25
+  - first:
+      213: -4700033236039538639
+    second: skating_26
+  - first:
+      213: -2464344079005286948
+    second: skating_27
+  - first:
+      213: -3479200112874632119
+    second: skating_28
+  - first:
+      213: 8829437420116664689
+    second: skating_29
+  - first:
+      213: 2788234411210279749
+    second: skating_30
+  - first:
+      213: 7571127789785698793
+    second: skating_31
+  - first:
+      213: 1102988776540987958
+    second: skating_32
+  - first:
+      213: 7455699977688419723
+    second: skating_33
+  - first:
+      213: 6668731850526698609
+    second: skating_34
+  - first:
+      213: 1684168911238803135
+    second: skating_35
+  - first:
+      213: -2344269696313929670
+    second: skating_36
+  - first:
+      213: -5164794851108454643
+    second: skating_37
+  - first:
+      213: -7532666627029887568
+    second: skating_38
+  - first:
+      213: -8817538789828444517
+    second: skating_39
+  - first:
+      213: -6393315343799399061
+    second: skating_40
+  - first:
+      213: 8145424182390210795
+    second: skating_41
+  - first:
+      213: -8002023402695886488
+    second: skating_42
+  - first:
+      213: -1712226930249596991
+    second: skating_43
+  - first:
+      213: 1961792856141764969
+    second: skating_44
+  - first:
+      213: 1908530376021368253
+    second: skating_45
+  - first:
+      213: 9140308641424862529
+    second: skating_46
+  - first:
+      213: 770008758888849435
+    second: skating_47
+  - first:
+      213: -4436243073323903607
+    second: skating_48
+  - first:
+      213: 4120679232656723059
+    second: skating_49
+  - first:
+      213: 7989785653654977
+    second: skating_50
+  - first:
+      213: -3211288720871683745
+    second: skating_51
+  - first:
+      213: 2627434275409922402
+    second: skating_52
+  - first:
+      213: -8185270672767277984
+    second: skating_53
+  - first:
+      213: 7364432214663881312
+    second: skating_54
+  - first:
+      213: 2271473681869506293
+    second: skating_55
+  - first:
+      213: 2776062945143194469
+    second: skating_56
+  - first:
+      213: 4061304200844730328
+    second: skating_57
+  - first:
+      213: -8936458122743958447
+    second: skating_58
+  - first:
+      213: 1021205539230884
+    second: skating_59
+  - first:
+      213: 8885663760057631389
+    second: skating_60
+  - first:
+      213: 1874320249987096402
+    second: skating_61
+  - first:
+      213: -3553398950906810340
+    second: skating_62
+  - first:
+      213: 5806309037537888762
+    second: skating_63
+  - first:
+      213: 913150806713882646
+    second: skating_64
+  - first:
+      213: -9056856734276536513
+    second: skating_65
+  - first:
+      213: -3960007011452906165
+    second: skating_66
+  - first:
+      213: 5658721788701638053
+    second: skating_67
+  - first:
+      213: 5149366854509071801
+    second: skating_68
+  - first:
+      213: 2283544514202995122
+    second: skating_69
+  - first:
+      213: 5470141433327849436
+    second: skating_70
+  - first:
+      213: 8315859824231765844
+    second: skating_71
+  - first:
+      213: 317447920437758092
+    second: skating_72
+  - first:
+      213: -2618747919292020301
+    second: skating_73
+  - first:
+      213: -2652014032286656400
+    second: skating_74
+  - first:
+      213: -3663627981473097007
+    second: skating_75
+  - first:
+      213: 8530633384457509536
+    second: skating_76
+  - first:
+      213: -3430364539951532036
+    second: skating_77
+  - first:
+      213: 8377427547083856300
+    second: skating_78
+  - first:
+      213: 4889153310808890682
+    second: skating_79
+  - first:
+      213: -3505416661638792499
+    second: skating_80
+  - first:
+      213: 5422775566732998654
+    second: skating_81
+  - first:
+      213: 3328767091208080592
+    second: skating_82
+  - first:
+      213: -4248679213171851204
+    second: skating_83
+  - first:
+      213: 5299239451646581699
+    second: skating_84
+  - first:
+      213: 6559975606114604154
+    second: skating_85
+  - first:
+      213: -4788289603082809282
+    second: skating_86
+  - first:
+      213: -8568293386720627776
+    second: skating_87
+  - first:
+      213: 7130959363941539867
+    second: skating_88
+  - first:
+      213: -7819395988233343918
+    second: skating_89
+  - first:
+      213: 311470174230392599
+    second: skating_90
+  - first:
+      213: 6507528482775696826
+    second: skating_91
+  - first:
+      213: -8090042657495580387
+    second: skating_92
+  - first:
+      213: -5781360584739799367
+    second: skating_93
+  - first:
+      213: 230161567878826166
+    second: skating_94
+  - first:
+      213: -4690082215062452084
+    second: skating_95
+  - first:
+      213: -3840150444462237723
+    second: skating_96
+  - first:
+      213: 1648805212717036658
+    second: skating_97
+  - first:
+      213: 2137976239629567774
+    second: skating_98
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skating_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4716
+        width: 88
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f67295d8b9c3ca4f8c580e4ff9db1ff
+      internalID: 6910797550231125517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_1
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 4716
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8864304fe67d6bc458279c3613b74849
+      internalID: 6160002251885829193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_2
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 4716
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef36560f2b583fa4dbef6aed11889589
+      internalID: 3190228866048442241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_3
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 4716
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5464c1f3626b332489072f58c0da3f56
+      internalID: -7829186939031081674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_4
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 4716
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1672f1dba52e2f84aae905bad6207ae2
+      internalID: -4987373021920912593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_5
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 4716
+        width: 88
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955bad3e5ada11349b80fa5969186983
+      internalID: 232878771887529528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_6
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 4716
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baa2e31aba9ace4aa711a2af2843999
+      internalID: -1190515157809964945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_7
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 4716
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0648020e8703354ca15653e5557bbf4
+      internalID: 9045703513981765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_8
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 4716
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994ebce8d4288fb47a3f4ec9039b0d85
+      internalID: 4771503038189470076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_9
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 4716
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9f4c2c8332c874f9e923f892bcc315
+      internalID: 5374892123764373918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4206
+        width: 88
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c241affa4c923c94f9e69d36248583ef
+      internalID: -5520939280500913284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_11
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 4206
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4444b575c6aa3b7459caabebd557f993
+      internalID: -717349499122625841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_12
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 4206
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c3eb704c7030248b61927373798c02
+      internalID: -9202790696080038140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_13
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 4206
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf10f6f4faae4d469ce4c4ec205b923
+      internalID: -7335118721115352988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_14
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 4206
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a049197dc285c014883b9675bd80c04c
+      internalID: 6514742870009736242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_15
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 4206
+        width: 88
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e865d386e5793d4da0477c1b52ff37e
+      internalID: 6028626854226637607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_16
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 4206
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdc070e6ebe4634095b3cd373dc48d5
+      internalID: 95929742723618130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_17
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 4206
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dd90febce763a48a1dc7fb6cdc56c5
+      internalID: 8608211641678615755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_18
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 4206
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e2502d0d0a6cb46979eeccd667de74
+      internalID: 2883296900176142620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_19
+      rect:
+        serializedVersion: 2
+        x: 4734
+        y: 4206
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a901f8a66ed4c749935e1070d588986
+      internalID: -7228518219440875729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_20
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 4086
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d96b7454783a047a97eeb7b52738fe
+      internalID: 239194511950949392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3694
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251e0b56123e8054e98c44e40b65e216
+      internalID: -842195784579963341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_22
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 3694
+        width: 88
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ead2a1fd2f1fad4db5698378688358f
+      internalID: 8725801138562322580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_23
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 3694
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beac18a98996ba046a457bbcc7ee6e62
+      internalID: 9081127821168405623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_24
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 3694
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9af9fc48a63327428705c7855510547
+      internalID: -6041424571169187116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_25
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 3694
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd5f4d28089aba43977334b3fe60864
+      internalID: 9198856201905999141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_26
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 3694
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec3436a598c9b445b0c16986685cdf0
+      internalID: -4700033236039538639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_27
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 3694
+        width: 88
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1212003ed43f6f46853efa8b1bb82c6
+      internalID: -2464344079005286948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_28
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 3694
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012627bfe0effa14fa8c6a0c150e8aab
+      internalID: -3479200112874632119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_29
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 3694
+        width: 85
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd2e2e10467657498303a83c62e8220
+      internalID: 8829437420116664689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_30
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 3694
+        width: 93
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad4ef3d5b01df049b28508602b7fdc9
+      internalID: 2788234411210279749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3181
+        width: 95
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11756d15836900e41a9667e7e481d8aa
+      internalID: 7571127789785698793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_32
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 3181
+        width: 95
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e59b5417cedcc43ab4522930261735
+      internalID: 1102988776540987958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_33
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 3181
+        width: 93
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb60aa8c9479924cbba8f3f0d921808
+      internalID: 7455699977688419723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_34
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 3181
+        width: 92
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba9afb393dfdb34aafa7b61a83e0c83
+      internalID: 6668731850526698609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_35
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 3181
+        width: 93
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dce329d67d47f64787724a147bce83d
+      internalID: 1684168911238803135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_36
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 3181
+        width: 95
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f37c4e9e9332f9448f95aaf8af09703
+      internalID: -2344269696313929670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_37
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 3181
+        width: 95
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafde214263d6c44db37ee17fc14b7cb
+      internalID: -5164794851108454643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_38
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 3181
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e308efae2cc1f14baf38aea736439fe
+      internalID: -7532666627029887568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_39
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 3181
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2267f17a0df3b4c8d36a7b02860bd7
+      internalID: -8817538789828444517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_40
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 3181
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6ae4449c39653498867f7c93997c8f
+      internalID: -6393315343799399061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_41
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2669
+        width: 88
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2ed927d54146c4495bbcb23492d215
+      internalID: 8145424182390210795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_42
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 2669
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff3b11973718104ba5fe9d39f2697c4
+      internalID: -8002023402695886488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_43
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 2669
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddbaa36c0e910540aa0436861d18cde
+      internalID: -1712226930249596991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_44
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2669
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83195a61bc55384d9c587d54e9e7cbc
+      internalID: 1961792856141764969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_45
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 2669
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204c733fdb035a141992ebaf1a28f219
+      internalID: 1908530376021368253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_46
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 2669
+        width: 88
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499823e5be2b91f4f81d7af475c17a05
+      internalID: 9140308641424862529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_47
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 2669
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96372b8e83d95b840a2ba0fbd3f1eeb6
+      internalID: 770008758888849435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_48
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 2669
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308658fda1828b5498a744c022d7f9d2
+      internalID: -4436243073323903607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_49
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 2669
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a68042548c3404b82db4fc6b182b78
+      internalID: 4120679232656723059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_50
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 2669
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865624e674a5319408e52000204d394c
+      internalID: 7989785653654977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_51
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2156
+        width: 88
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a3f1bb9d91806459e5611fc031fb70
+      internalID: -3211288720871683745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_52
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 2156
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a58ccfe0ff0fcf449b6b9edb5a1bd7e
+      internalID: 2627434275409922402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_53
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 2156
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c96476470d91cf489863c26321efcc1
+      internalID: -8185270672767277984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_54
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2156
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57a1ade0cd06c44eac85e63d773b8d2
+      internalID: 7364432214663881312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_55
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 2156
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8799c741e0a0d7449e94cdd1e216547
+      internalID: 2271473681869506293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_56
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 2156
+        width: 88
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef554dd1474d40c42aab31849055c41e
+      internalID: 2776062945143194469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_57
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 2156
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ebb9282116ad4ca7dc0f235606f13
+      internalID: 4061304200844730328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_58
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 2156
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dcfe15857b6234fb8c34c94f20aec4
+      internalID: -8936458122743958447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_59
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 2156
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c246a7cb1b9e2ac4b8c4350fbac17fb0
+      internalID: 1021205539230884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_60
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 2156
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46505bedb5bd72246a637278396875cc
+      internalID: 8885663760057631389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_61
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1646
+        width: 88
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eea680a4a4a8894dadeb77abb914088
+      internalID: 1874320249987096402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_62
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1646
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c83a2ec1dfae7c4cb79bc4bd09714e3
+      internalID: -3553398950906810340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_63
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1646
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f104ada905fa02d4dadb155d5e53cff0
+      internalID: 5806309037537888762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_64
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1646
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2af93dc3573d0442935b862a417ae3a
+      internalID: 913150806713882646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_65
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1646
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c661a7de14fd92c4485f998a28096bc4
+      internalID: -9056856734276536513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_66
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 1646
+        width: 88
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d15c682ca045a447805cb7095a69fe5
+      internalID: -3960007011452906165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_67
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 1646
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9de56163ec995b44bb32b36bc61c305
+      internalID: 5658721788701638053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_68
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 1646
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a4656e8605eba4d826d1afb9a25506
+      internalID: 5149366854509071801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_69
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 1646
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a7a74f710f4674fa1e7e6a9d0fb044
+      internalID: 2283544514202995122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_70
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 1646
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7f2eb6f2afe4c45be4eb8d40c03397
+      internalID: 5470141433327849436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_71
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1134
+        width: 88
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16b1cee5a882cc42933cd19a02c66c2
+      internalID: 8315859824231765844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_72
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1134
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d235f35df91f34f9560f4931b18e8d
+      internalID: 317447920437758092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_73
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1134
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9a96fa4e584f047ac244c76a58087c
+      internalID: -2618747919292020301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_74
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1134
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c93ba95a2a6e2488643bd629dc9871
+      internalID: -2652014032286656400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_75
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1134
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d70c95df59c234087f81bf0bb605a7
+      internalID: -3663627981473097007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_76
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 1134
+        width: 88
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3358e8333c2c2c74ab73660c3d94ae26
+      internalID: 8530633384457509536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_77
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 1134
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c898697f7bcdc314190a4cce9b82458b
+      internalID: -3430364539951532036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_78
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 1134
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc5c93a2e8224d47a641cfaf69ff4bc
+      internalID: 8377427547083856300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_79
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 1134
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c8a0c792286ee498617e0f5bd3c7a8
+      internalID: 4889153310808890682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_80
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 1134
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce233bd62b4d794999306f6fc776f88
+      internalID: -3505416661638792499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_81
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 621
+        width: 88
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59232fdfde83ddf44bf96c85b335d536
+      internalID: 5422775566732998654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_82
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 621
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc11f99b28add0348b0b1286153246ca
+      internalID: 3328767091208080592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_83
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 621
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b9b3b44a0cc304399a1d3ff369dadb
+      internalID: -4248679213171851204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_84
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 621
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae283cafca830142bb2b5cb028d99fd
+      internalID: 5299239451646581699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_85
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 621
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108909e1ae341fc41b5d28f31c1d85f9
+      internalID: 6559975606114604154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_86
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 621
+        width: 88
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4336e5168baba42802bd84771b38d4
+      internalID: -4788289603082809282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_87
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 621
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e70182c7ee02aa48bef43c94837e9f4
+      internalID: -8568293386720627776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_88
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 621
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4a8defb4bf0e54b9553ed9b6d39728
+      internalID: 7130959363941539867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_89
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 621
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f040cdb6ca19a46468b9d05d85df19dc
+      internalID: -7819395988233343918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_90
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 621
+        width: 85
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31e117949856c14b8b58fa93499362d
+      internalID: 311470174230392599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_91
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 109
+        width: 88
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7090fd715a13341a1cfa34aae0b43e
+      internalID: 6507528482775696826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_92
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 109
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b38dad8d17ec8b4593713cf29ab26af
+      internalID: -8090042657495580387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_93
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 109
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6979d2a73cf74da458996abf99a93e26
+      internalID: -5781360584739799367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_94
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 109
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c68cd574d22f284b93de1aba298e8a8
+      internalID: 230161567878826166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_95
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 109
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5ff7debfc718b4f97f7471e1f24568
+      internalID: -4690082215062452084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_96
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 109
+        width: 88
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e36178ba23bf94b8a3b4ce87373ff8
+      internalID: -3840150444462237723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_97
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 109
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efdc1e2ce1beb0478c6572dfdc45e0c
+      internalID: 1648805212717036658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating_98
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 109
+        width: 85
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cdab220b1560e47aff0d05e6e0ff28
+      internalID: 2137976239629567774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

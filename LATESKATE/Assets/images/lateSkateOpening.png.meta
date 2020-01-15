@@ -1,0 +1,1399 @@
+fileFormatVersion: 2
+guid: 4c97a61532d498e4cbc7cbef6ba7285e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3326415873448074617
+    second: lateSkateOpening_0
+  - first:
+      213: 5436913236747643232
+    second: lateSkateOpening_1
+  - first:
+      213: -5057864747136052458
+    second: lateSkateOpening_2
+  - first:
+      213: 2801318505355874942
+    second: lateSkateOpening_3
+  - first:
+      213: -5730643571547018837
+    second: lateSkateOpening_4
+  - first:
+      213: 3458949188872707557
+    second: lateSkateOpening_5
+  - first:
+      213: 6192440761834358604
+    second: lateSkateOpening_6
+  - first:
+      213: 3760495066026145686
+    second: lateSkateOpening_7
+  - first:
+      213: -2557994836031541559
+    second: lateSkateOpening_8
+  - first:
+      213: 5530731799873451885
+    second: lateSkateOpening_9
+  - first:
+      213: 8256457834770319221
+    second: lateSkateOpening_10
+  - first:
+      213: 1584039587760166406
+    second: lateSkateOpening_11
+  - first:
+      213: -6992966639514607352
+    second: lateSkateOpening_12
+  - first:
+      213: 942098754213928745
+    second: lateSkateOpening_13
+  - first:
+      213: -5562481607729723591
+    second: lateSkateOpening_14
+  - first:
+      213: 3465181767830965701
+    second: lateSkateOpening_15
+  - first:
+      213: 6903230695688483515
+    second: lateSkateOpening_16
+  - first:
+      213: 6816635536706535444
+    second: lateSkateOpening_17
+  - first:
+      213: -624034016073190229
+    second: lateSkateOpening_18
+  - first:
+      213: -7989961451642809717
+    second: lateSkateOpening_19
+  - first:
+      213: -4128803633018528007
+    second: lateSkateOpening_20
+  - first:
+      213: 1857603671204479237
+    second: lateSkateOpening_21
+  - first:
+      213: 2998156975625197785
+    second: lateSkateOpening_22
+  - first:
+      213: 1024440591983928341
+    second: lateSkateOpening_23
+  - first:
+      213: -3052884592532426487
+    second: lateSkateOpening_24
+  - first:
+      213: 5197569691241305524
+    second: lateSkateOpening_25
+  - first:
+      213: 8736065044591040872
+    second: lateSkateOpening_26
+  - first:
+      213: 6856772593627272108
+    second: lateSkateOpening_27
+  - first:
+      213: 337273374376872248
+    second: lateSkateOpening_28
+  - first:
+      213: -1575097834261505690
+    second: lateSkateOpening_29
+  - first:
+      213: -1675250352100449344
+    second: lateSkateOpening_30
+  - first:
+      213: -4767132475946785301
+    second: lateSkateOpening_31
+  - first:
+      213: 7621493137373406817
+    second: lateSkateOpening_32
+  - first:
+      213: 8892362686271008810
+    second: lateSkateOpening_33
+  - first:
+      213: -2874488809388251889
+    second: lateSkateOpening_34
+  - first:
+      213: -5951695913489429164
+    second: lateSkateOpening_35
+  - first:
+      213: 750923013767083067
+    second: lateSkateOpening_36
+  - first:
+      213: 5943228217506727062
+    second: lateSkateOpening_37
+  - first:
+      213: -1719141447002543179
+    second: lateSkateOpening_38
+  - first:
+      213: 8804131137915817660
+    second: lateSkateOpening_39
+  - first:
+      213: 1071391125466287241
+    second: lateSkateOpening_40
+  - first:
+      213: 5857019778485195823
+    second: lateSkateOpening_41
+  - first:
+      213: 924493720394553087
+    second: lateSkateOpening_42
+  - first:
+      213: 2121133849094103142
+    second: lateSkateOpening_43
+  - first:
+      213: -7018499024391171513
+    second: lateSkateOpening_44
+  - first:
+      213: -5074272226151855748
+    second: lateSkateOpening_45
+  - first:
+      213: 1629511586392943022
+    second: lateSkateOpening_46
+  - first:
+      213: 5039537607218071928
+    second: lateSkateOpening_47
+  - first:
+      213: -4903013386142516308
+    second: lateSkateOpening_48
+  - first:
+      213: 7481454284956538797
+    second: lateSkateOpening_49
+  - first:
+      213: -3076566033164955228
+    second: lateSkateOpening_50
+  - first:
+      213: -1819958326747480214
+    second: lateSkateOpening_51
+  - first:
+      213: -5828401321994428383
+    second: lateSkateOpening_52
+  - first:
+      213: 2915392415325050844
+    second: lateSkateOpening_53
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lateSkateOpening_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 6236
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafbfcbb53859ef488cf8c5729a56ac8
+      internalID: -3326415873448074617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_1
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 6236
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9300910c5f3abaa4abc0c48a08145488
+      internalID: 5436913236747643232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_2
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 6236
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33dda7216b3da0448cf6f89aa10fef4
+      internalID: -5057864747136052458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_3
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 6236
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a510b128fdb4c5e41be10f20ed545508
+      internalID: 2801318505355874942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_4
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 6236
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74b82c75f7347f449a9195d18b11118
+      internalID: -5730643571547018837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_5
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 6236
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab3d5fabe0ff954fbf98afcf63dd2fa
+      internalID: 3458949188872707557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_6
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 6236
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92350d0508f228b4b88c57492db02f6c
+      internalID: 6192440761834358604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 5388
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5077a287d3c794c47988a68e5d4fd870
+      internalID: 3760495066026145686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_8
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 5388
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7def5708c8ccb244a4cbfc49ffbb368
+      internalID: -2557994836031541559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_9
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 5388
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b804909f5570eec4c8f566a3a0b1054b
+      internalID: 5530731799873451885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_10
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 5388
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd152d0164d824e4d9dbd28fded9d575
+      internalID: 8256457834770319221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_11
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 5388
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e180e347c659d47a6de9b469871077
+      internalID: 1584039587760166406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_12
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 5388
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462ed03074c0151408619f3254d83fa9
+      internalID: -6992966639514607352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_13
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 5388
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7e2783e2443b84180f7a12c2ea414b
+      internalID: 942098754213928745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 4540
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98283bc8ee28514429876017248698e9
+      internalID: -5562481607729723591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_15
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 4540
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0373810abd6eee4ea7e7fa4555ca49c
+      internalID: 3465181767830965701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_16
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 4540
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3f58a98c7b13e47a285f89272ace20
+      internalID: 6903230695688483515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_17
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 4540
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2160e59d459094f41a16f115ff0c840a
+      internalID: 6816635536706535444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_18
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 4540
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bf47c2ebe01f74996f83468de6a108
+      internalID: -624034016073190229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_19
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 4540
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646669acbc948434199273de523e96df
+      internalID: -7989961451642809717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_20
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 4540
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541371d5958fa3a44aa2b5778a994b6e
+      internalID: -4128803633018528007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3692
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67490c9e899988d42a36e115b8d0d106
+      internalID: 1857603671204479237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_22
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 3692
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a41a1cfdc75ba45b0e81c20963c47e
+      internalID: 2998156975625197785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_23
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 3692
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02254c6a7b088b4caa5426b15e17a43
+      internalID: 1024440591983928341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_24
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 3692
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2575d4bcf4513d6488e4a17bd310258d
+      internalID: -3052884592532426487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_25
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 3692
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f17d58f833be0c40b36690df8542b99
+      internalID: 5197569691241305524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_26
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 3692
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26bbbad03775aa4296d8b2d35962890
+      internalID: 8736065044591040872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_27
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 3692
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cbf487ddb464848b07e40b229fa643
+      internalID: 6856772593627272108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2844
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6e9021f4cffd744bf103345b60da4c
+      internalID: 337273374376872248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_29
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 2844
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793ed1e3489d1dd4bb8ca2c1e80b3f9c
+      internalID: -1575097834261505690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_30
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 2844
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb04154721b8b8468cf379ec4164c39
+      internalID: -1675250352100449344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_31
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 2844
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af5b99e2e177524bb6b1304475034b0
+      internalID: -4767132475946785301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_32
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 2844
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005093cd1e797564da7be322da9ca773
+      internalID: 7621493137373406817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_33
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 2844
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37aa1ac1565f22e4b8a667110a2d6bc4
+      internalID: 8892362686271008810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_34
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 2844
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b8773824996624c9f7477a0d366dca
+      internalID: -2874488809388251889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_35
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1996
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f22581548635c4496e95dd06804181
+      internalID: -5951695913489429164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_36
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1996
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a1d589fca057d4192466e98861f197
+      internalID: 750923013767083067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_37
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1996
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e880845d904964dbf146c7660e2fe7
+      internalID: 5943228217506727062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_38
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 1996
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05873bd1c8733fe4da345c99a2b15a61
+      internalID: -1719141447002543179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_39
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 1996
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1640312e86a2974ba8b8462c34ddae3
+      internalID: 8804131137915817660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_40
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 1996
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd119a8e26171d34dab9e3dc4e6f6688
+      internalID: 1071391125466287241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_41
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 1996
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef444a08f8db7a47ae37988176edffa
+      internalID: 5857019778485195823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_42
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1148
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c192cd1378008478c3e6f0821b7f03
+      internalID: 924493720394553087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_43
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1148
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f81931c41d1724eba286a23428eb78
+      internalID: 2121133849094103142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_44
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1148
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab430a94d4e014646b0d83d5057cd4f1
+      internalID: -7018499024391171513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_45
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 1148
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8041dc8a509774eb2074c96920d1d1
+      internalID: -5074272226151855748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_46
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 1148
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcf8b89ec129d04687e2f171ad28980
+      internalID: 1629511586392943022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_47
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 1148
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be13a6a459f889c44a4c85f9806f52fd
+      internalID: 5039537607218071928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_48
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 1148
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c38d0c7ddfff9e4fa47509227300d79
+      internalID: -4903013386142516308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 300
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120ef734e38abf345909b62bbb125d0d
+      internalID: 7481454284956538797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_50
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 300
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ac5420e1dc69c41b71d6d565f490d4
+      internalID: -3076566033164955228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_51
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 300
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d56fa4e74e44f4eabb1f2f9eb636c7
+      internalID: -1819958326747480214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_52
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 300
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac724893e36d25a46bfd100b2ffbc815
+      internalID: -5828401321994428383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lateSkateOpening_53
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 300
+        width: 705
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b276c03c912637940a8f2f008ca9e126
+      internalID: 2915392415325050844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

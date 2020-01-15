@@ -1,0 +1,1723 @@
+fileFormatVersion: 2
+guid: fa906810144e6ba4bb59185c93e70a65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7225431395522409004
+    second: skating colision_0
+  - first:
+      213: 5316512095798104191
+    second: skating colision_1
+  - first:
+      213: -4909083332369838951
+    second: skating colision_2
+  - first:
+      213: 7592334868573594723
+    second: skating colision_3
+  - first:
+      213: 3929973321449556916
+    second: skating colision_4
+  - first:
+      213: 3717151083580481353
+    second: skating colision_5
+  - first:
+      213: 6851915052473726703
+    second: skating colision_6
+  - first:
+      213: 3093825692205010279
+    second: skating colision_7
+  - first:
+      213: 8126076675323761672
+    second: skating colision_8
+  - first:
+      213: -1680650435825724784
+    second: skating colision_9
+  - first:
+      213: 3368674823502937997
+    second: skating colision_10
+  - first:
+      213: -3982116980748551731
+    second: skating colision_11
+  - first:
+      213: -1834122476164740601
+    second: skating colision_12
+  - first:
+      213: -7482215304261101096
+    second: skating colision_13
+  - first:
+      213: 7372979738339815918
+    second: skating colision_14
+  - first:
+      213: -3649869653979169093
+    second: skating colision_15
+  - first:
+      213: -2122132390309789973
+    second: skating colision_16
+  - first:
+      213: 1850680925670323027
+    second: skating colision_17
+  - first:
+      213: -4329899143278671550
+    second: skating colision_18
+  - first:
+      213: 2461619287452743787
+    second: skating colision_19
+  - first:
+      213: -204839022872829647
+    second: skating colision_20
+  - first:
+      213: -8048515039958125090
+    second: skating colision_21
+  - first:
+      213: -4857562101905129791
+    second: skating colision_22
+  - first:
+      213: 287726390258853710
+    second: skating colision_23
+  - first:
+      213: -1456304084254055704
+    second: skating colision_24
+  - first:
+      213: 3418005467777438923
+    second: skating colision_25
+  - first:
+      213: 5186146632128558062
+    second: skating colision_26
+  - first:
+      213: -3808115219270864151
+    second: skating colision_27
+  - first:
+      213: 7877556902248456683
+    second: skating colision_28
+  - first:
+      213: -5726788568456955389
+    second: skating colision_29
+  - first:
+      213: 8073613275896328517
+    second: skating colision_30
+  - first:
+      213: -1669333875507210752
+    second: skating colision_31
+  - first:
+      213: 8006944172168994869
+    second: skating colision_32
+  - first:
+      213: -5024308785070002949
+    second: skating colision_33
+  - first:
+      213: 8489362035834766134
+    second: skating colision_34
+  - first:
+      213: 3064696444419895216
+    second: skating colision_35
+  - first:
+      213: 1848793062921567836
+    second: skating colision_36
+  - first:
+      213: -1329238050005433896
+    second: skating colision_37
+  - first:
+      213: -1098493720293530913
+    second: skating colision_38
+  - first:
+      213: -8398259097605419195
+    second: skating colision_39
+  - first:
+      213: 6138996849381561875
+    second: skating colision_40
+  - first:
+      213: -3049456228745335656
+    second: skating colision_41
+  - first:
+      213: -4817049430792558424
+    second: skating colision_42
+  - first:
+      213: -4227267860219416584
+    second: skating colision_43
+  - first:
+      213: 7849464375388024871
+    second: skating colision_44
+  - first:
+      213: -6584257878438178764
+    second: skating colision_45
+  - first:
+      213: 6614128816448955305
+    second: skating colision_46
+  - first:
+      213: -440316199778544452
+    second: skating colision_47
+  - first:
+      213: 8073593353806796182
+    second: skating colision_48
+  - first:
+      213: -6872615963703605934
+    second: skating colision_49
+  - first:
+      213: -6787015378975291043
+    second: skating colision_50
+  - first:
+      213: -2098182371736072096
+    second: skating colision_51
+  - first:
+      213: 2066282511160756549
+    second: skating colision_52
+  - first:
+      213: 2868564314540898603
+    second: skating colision_53
+  - first:
+      213: -354706236121012330
+    second: skating colision_54
+  - first:
+      213: 2431751690816399094
+    second: skating colision_55
+  - first:
+      213: -4850244060535579374
+    second: skating colision_56
+  - first:
+      213: 2970349391194242821
+    second: skating colision_57
+  - first:
+      213: 3979991973786787395
+    second: skating colision_58
+  - first:
+      213: 6963381729175399655
+    second: skating colision_59
+  - first:
+      213: 959859932404810341
+    second: skating colision_60
+  - first:
+      213: 8945433186665610622
+    second: skating colision_61
+  - first:
+      213: -2830206157396859840
+    second: skating colision_62
+  - first:
+      213: 7703809455395507949
+    second: skating colision_63
+  - first:
+      213: 214681211550020114
+    second: skating colision_64
+  - first:
+      213: -1217331186053951390
+    second: skating colision_65
+  - first:
+      213: 9122272646247882073
+    second: skating colision_66
+  - first:
+      213: -2683933977336678358
+    second: skating colision_67
+  - first:
+      213: 4523086657934253836
+    second: skating colision_68
+  - first:
+      213: 321127404760253968
+    second: skating colision_69
+  - first:
+      213: 4249898318005738047
+    second: skating colision_70
+  - first:
+      213: -6948339419753570516
+    second: skating colision_71
+  - first:
+      213: -1454762501774976111
+    second: skating colision_72
+  - first:
+      213: 3317439707734753799
+    second: skating colision_73
+  - first:
+      213: 5712195829156783493
+    second: skating colision_74
+  - first:
+      213: -3216832697867731185
+    second: skating colision_75
+  - first:
+      213: -1406705791042743939
+    second: skating colision_76
+  - first:
+      213: 75441707863081818
+    second: skating colision_77
+  - first:
+      213: 6164178112165367402
+    second: skating colision_78
+  - first:
+      213: -1266724931270707368
+    second: skating colision_79
+  - first:
+      213: 1086475948749323855
+    second: skating colision_80
+  - first:
+      213: -929592366796332981
+    second: skating colision_81
+  - first:
+      213: 6237993713869187863
+    second: skating colision_82
+  - first:
+      213: -4266047185753790500
+    second: skating colision_83
+  - first:
+      213: -4876550901532060430
+    second: skating colision_84
+  - first:
+      213: -5430355242051055588
+    second: skating colision_85
+  - first:
+      213: -7269087229914778978
+    second: skating colision_86
+  - first:
+      213: -713290158194352848
+    second: skating colision_87
+  - first:
+      213: 3949533403795319942
+    second: skating colision_88
+  - first:
+      213: -6689347655051001233
+    second: skating colision_89
+  - first:
+      213: -59139059905299141
+    second: skating colision_90
+  - first:
+      213: 6976094968777633756
+    second: skating colision_91
+  - first:
+      213: -7455798313676093893
+    second: skating colision_92
+  - first:
+      213: -4479629708592270419
+    second: skating colision_93
+  - first:
+      213: 4581574797267860730
+    second: skating colision_94
+  - first:
+      213: -3052145423811255395
+    second: skating colision_95
+  - first:
+      213: 5975614043302654703
+    second: skating colision_96
+  - first:
+      213: 9018792392953190551
+    second: skating colision_97
+  - first:
+      213: -6009844188746472647
+    second: skating colision_98
+  - first:
+      213: 3191255280142911599
+    second: skating colision_99
+  - first:
+      213: -1568155182610991664
+    second: skating colision_100
+  - first:
+      213: -6860710889563775456
+    second: skating colision_101
+  - first:
+      213: -6083499638348788523
+    second: skating colision_102
+  - first:
+      213: -4651666963080511940
+    second: skating colision_103
+  - first:
+      213: 2162268008717418401
+    second: skating colision_104
+  - first:
+      213: 5181942821324851421
+    second: skating colision_105
+  - first:
+      213: 5105479685016687730
+    second: skating colision_106
+  - first:
+      213: -8861121744969958649
+    second: skating colision_107
+  - first:
+      213: 2317334438286843410
+    second: skating colision_108
+  - first:
+      213: 866964969113515762
+    second: skating colision_109
+  - first:
+      213: -3030196393895604700
+    second: skating colision_110
+  - first:
+      213: -6491553141196900698
+    second: skating colision_111
+  - first:
+      213: -8675028700732364481
+    second: skating colision_112
+  - first:
+      213: -6654039719367073122
+    second: skating colision_113
+  - first:
+      213: -4044116756200674937
+    second: skating colision_114
+  - first:
+      213: -5019032597035430438
+    second: skating colision_115
+  - first:
+      213: 8193794105100549473
+    second: skating colision_116
+  - first:
+      213: -4481780841593034286
+    second: skating colision_117
+  - first:
+      213: -416191807682513165
+    second: skating colision_118
+  - first:
+      213: -107291468286006133
+    second: skating colision_119
+  - first:
+      213: -214672933722167442
+    second: skating colision_120
+  - first:
+      213: 3948919475554912693
+    second: skating colision_121
+  - first:
+      213: 8339515151797418692
+    second: skating colision_122
+  - first:
+      213: -3959783411501995920
+    second: skating colision_123
+  - first:
+      213: -359121844024815015
+    second: skating colision_124
+  - first:
+      213: 4041189361445364408
+    second: skating colision_125
+  - first:
+      213: 8796869838233199765
+    second: skating colision_126
+  - first:
+      213: 7146777053602671578
+    second: skating colision_127
+  - first:
+      213: 296653983952988580
+    second: skating colision_128
+  - first:
+      213: -5669018857402884331
+    second: skating colision_129
+  - first:
+      213: -5354298348024253272
+    second: skating colision_130
+  - first:
+      213: -8763235837630164431
+    second: skating colision_131
+  - first:
+      213: 1990362989154636583
+    second: skating colision_132
+  - first:
+      213: 6977733445826342307
+    second: skating colision_133
+  - first:
+      213: -7690688698231067591
+    second: skating colision_134
+  - first:
+      213: 6083465587003373237
+    second: skating colision_135
+  - first:
+      213: -3695095427461375821
+    second: skating colision_136
+  - first:
+      213: 1913122486430099687
+    second: skating colision_137
+  - first:
+      213: -5308958597589200523
+    second: skating colision_138
+  - first:
+      213: -3260585656229828614
+    second: skating colision_139
+  - first:
+      213: 4274021536952507342
+    second: skating colision_140
+  - first:
+      213: -6566837295662315657
+    second: skating colision_141
+  - first:
+      213: 3305399044318276634
+    second: skating colision_142
+  - first:
+      213: -577194127758613827
+    second: skating colision_143
+  - first:
+      213: 7937001662359096355
+    second: skating colision_144
+  - first:
+      213: 7535034983595807914
+    second: skating colision_145
+  - first:
+      213: 4104461056427629733
+    second: skating colision_146
+  - first:
+      213: -3955474896457790408
+    second: skating colision_147
+  - first:
+      213: -4342125212603579296
+    second: skating colision_148
+  - first:
+      213: 6307167780928650474
+    second: skating colision_149
+  - first:
+      213: -35106774091837161
+    second: skating colision_150
+  - first:
+      213: -7407789790544889009
+    second: skating colision_151
+  - first:
+      213: 3949862129464867442
+    second: skating colision_152
+  - first:
+      213: 9034554297682175339
+    second: skating colision_153
+  - first:
+      213: -322882612197392210
+    second: skating colision_154
+  - first:
+      213: 7556494411123398952
+    second: skating colision_155
+  - first:
+      213: 659713914557788049
+    second: skating colision_156
+  - first:
+      213: -1928175643078878504
+    second: skating colision_157
+  - first:
+      213: -2235989826569212811
+    second: skating colision_158
+  - first:
+      213: -3171178939107938771
+    second: skating colision_159
+  - first:
+      213: 55135073796173323
+    second: skating colision_160
+  - first:
+      213: -8376912641623220257
+    second: skating colision_161
+  - first:
+      213: -2321734797034196529
+    second: skating colision_162
+  - first:
+      213: 4550561150923344614
+    second: skating colision_163
+  - first:
+      213: 6062016306204051354
+    second: skating colision_164
+  - first:
+      213: -7913049203601253745
+    second: skating colision_165
+  - first:
+      213: 7295036500481915665
+    second: skating colision_166
+  - first:
+      213: 8694561799841583695
+    second: skating colision_167
+  - first:
+      213: 3814761431628368266
+    second: skating colision_168
+  - first:
+      213: -781400496741069464
+    second: skating colision_169
+  - first:
+      213: 3038825852202606498
+    second: skating colision_170
+  - first:
+      213: -819943436343984371
+    second: skating colision_171
+  - first:
+      213: 3074217082144392599
+    second: skating colision_172
+  - first:
+      213: -4535975360806255878
+    second: skating colision_173
+  - first:
+      213: 3433530743674089184
+    second: skating colision_174
+  - first:
+      213: 1222905275318599996
+    second: skating colision_175
+  - first:
+      213: 5900087609876731713
+    second: skating colision_176
+  - first:
+      213: 7461560026760250569
+    second: skating colision_177
+  - first:
+      213: 8525102322537988615
+    second: skating colision_178
+  - first:
+      213: -2822451392660650808
+    second: skating colision_179
+  - first:
+      213: 8101285649501716786
+    second: skating colision_180
+  - first:
+      213: -3739708112830480926
+    second: skating colision_181
+  - first:
+      213: -2211987640165854543
+    second: skating colision_182
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skating colision_1
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 3797
+        width: 382
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a26e22a8ae13b044876c1c330712d3d
+      internalID: 5316512095798104191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_2
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 3797
+        width: 382
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b4cfdbfd2b0f94db0146407db07507
+      internalID: -4909083332369838951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_3
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 3797
+        width: 382
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560e61778a300ff4da943b5ee7a57c62
+      internalID: 7592334868573594723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_4
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 3719
+        width: 182
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edb01546c1e6b04597bc3c2941615fa
+      internalID: 3929973321449556916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_5
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 3853
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2dc7bbeafd1f448a1a99a1d6422f06
+      internalID: 3717151083580481353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_6
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 3853
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b61b74de70369d48b1d18da03dfa683
+      internalID: 6851915052473726703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_7
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 3719
+        width: 182
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cc5af64de70c44ca7973a0a7074acb
+      internalID: 3093825692205010279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_10
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 3721
+        width: 182
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9a9378007d9ba468b81127b1ed84cc
+      internalID: 3368674823502937997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 3255
+        width: 296
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdf337c3723e1e4fa69043a2bd85748
+      internalID: -3982116980748551731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3263
+        width: 293
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e286d486b863a4d9ee7f430b218c93
+      internalID: -1834122476164740601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_13
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3261
+        width: 299
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f4d44279aa5b64d98d8131a11e60ea
+      internalID: -7482215304261101096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_14
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 3262
+        width: 182
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d1a6dd74c85474aa74ca19312794ca
+      internalID: 7372979738339815918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_23
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 3237
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1744579b1d790439fc50e06e69fd95
+      internalID: 287726390258853710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_32
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 3221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1633b378f6675c644ba9aedcbae49a20
+      internalID: 8006944172168994869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_73
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 2758
+        width: 70
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc2cfe31e8dbfd458681054a7a8c0c7
+      internalID: 3317439707734753799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_76
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 2782
+        width: 337
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9a838c5cb36f94eaa27016d1a90c93
+      internalID: -1406705791042743939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_95
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2248
+        width: 70
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f277032db719ad429b5c2e518b2ac1c
+      internalID: -3052145423811255395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_96
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 2270
+        width: 256
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48cd6f6a5cdf0c4182fb390a34fb2af
+      internalID: 5975614043302654703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_98
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2270
+        width: 265
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580ddaf14eb42db4abf0242a6b61edde
+      internalID: -6009844188746472647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_101
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 2240
+        width: 190
+        height: 299
+      alignment: 9
+      pivot: {x: 0.6005037, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39142b7319ca2f4eb035913e5ac0caf
+      internalID: -6860710889563775456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_111
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 2269
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435357994ee3c3a448c0c6d99f5dbda6
+      internalID: -6491553141196900698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_130
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 1752
+        width: 272
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d830380897548be49b85c520a13fa674
+      internalID: -5354298348024253272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_131
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1750
+        width: 291
+        height: 299
+      alignment: 9
+      pivot: {x: 0.49454585, y: 0.47245756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0957ce3e25cffb7418358d158f9b1d90
+      internalID: -8763235837630164431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_133
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1757
+        width: 134
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9669aef993748984e82b5bb4827acadd
+      internalID: 6977733445826342307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_134
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1758
+        width: 174
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386bfe047923dcb4bab02e7d73865126
+      internalID: -7690688698231067591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_135
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1757
+        width: 169
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e40f5146b97dda4e8624223003f81b7
+      internalID: 6083465587003373237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_136
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 1761
+        width: 157
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2590742cdf57944ab5e8c67269b58b
+      internalID: -3695095427461375821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_141
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1237
+        width: 230
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968fae78faeb09e4ba327e2d90de6e8e
+      internalID: -6566837295662315657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_142
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1237
+        width: 350
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa5460f2dbc81948a3fa578c84c2580
+      internalID: 3305399044318276634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_143
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1238
+        width: 341
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eda6b25c5e01242bf257c1014b2e0a
+      internalID: -577194127758613827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_144
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1238
+        width: 352
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96f8f1a71b66b0479a3aedd8237bfeb
+      internalID: 7937001662359096355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_148
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1237
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48b4a8e1ad1ebd409df72096b153a71
+      internalID: -4342125212603579296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_162
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 714
+        width: 371
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd964ec1134e3ff45a62e50ef3727888
+      internalID: -2321734797034196529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_163
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 713
+        width: 377
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.47585988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ded804b8dcc2a24ea0e7118155033c9
+      internalID: 4550561150923344614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_164
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 713
+        width: 417
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07f2a14d6a4bd444a2437dec43fc2fe
+      internalID: 6062016306204051354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_165
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 714
+        width: 371
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0be048b472c9894790a324170005080
+      internalID: -7913049203601253745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_15
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 3247
+        width: 430
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e233e0cd56e2c44a805dbb1567554e
+      internalID: -3649869653979169093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_16
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 3246
+        width: 385
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96e229c51f9cbf4d91b36b43600af6d
+      internalID: -2122132390309789973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_18
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 3246
+        width: 391
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ec2cea80b9fb34292f5087735df132
+      internalID: -4329899143278671550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_20
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2735
+        width: 404
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c52b1d763668d242bc10f30e425fae1
+      internalID: -204839022872829647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_21
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2784
+        width: 354
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be904da4b47cf74086c9401e0d0f8b5
+      internalID: -8048515039958125090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_24
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 2758
+        width: 344
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a29c52cf9c6f5343bf0c4f577ca48f4
+      internalID: -1456304084254055704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_25
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 2784
+        width: 357
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915d5ea408cefd04cab639b2c6f841fd
+      internalID: 3418005467777438923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_26
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 2758
+        width: 347
+        height: 299
+      alignment: 9
+      pivot: {x: 0.4816571, y: 0.4000238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36da7c89b6cd6474ca19f4933ea92a22
+      internalID: 5186146632128558062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_27
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 2270
+        width: 267
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b9ea0c2a125724fb70806d8c3f3bc8
+      internalID: -3808115219270864151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_28
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 2269
+        width: 297
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2568107290cdc5c44b79a3fadd61bd17
+      internalID: 7877556902248456683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_29
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 2239
+        width: 243
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e829bc8bead05548aed375f9c323950
+      internalID: -5726788568456955389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_30
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1727
+        width: 248
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e6ad97f671035458789efa66901968
+      internalID: 8073613275896328517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_31
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 1222
+        width: 388
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f94b537b46a8c046988ddcc9d9b803b
+      internalID: -1669333875507210752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_33
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 1222
+        width: 388
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d61793ce77ca244b5949dc99543c53
+      internalID: -5024308785070002949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skating colision_34
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 1224
+        width: 422
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7cc70ad4a436345bdcb178428f5dd7
+      internalID: 8489362035834766134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
