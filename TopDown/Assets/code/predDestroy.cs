@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bullet : MonoBehaviour
+public class predDestroy : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D collision)
+   public GameObject bullet;
+
+    void OnCollision2D(Collision2D collision)
     {
         Destroy(gameObject);
-
     }
+
+    
 }
