@@ -6,6 +6,8 @@ public class prayMove : MonoBehaviour
 {
     float speed = 10;
     float turnSpeed = 400;
+    Rigidbody2D rb;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,11 @@ public class prayMove : MonoBehaviour
         {
             transform.Translate(0, speed * Time.deltaTime, 0);
         }
+    }
+
+    void FixedUpdate()
+    {
+       
     }
 
     void turn()

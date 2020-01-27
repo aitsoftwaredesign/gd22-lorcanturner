@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 463771951}
   - component: {fileID: 463771953}
   - component: {fileID: 463771952}
+  - component: {fileID: 463771955}
   - component: {fileID: 463771954}
   m_Layer: 0
   m_Name: wheelB
@@ -149,8 +150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463771948}
   m_LocalRotation: {x: 0.0017452928, y: 0.0017452928, z: -0.0000030460562, w: 0.99999696}
-  m_LocalPosition: {x: -3.2, y: -0.936, z: 0.2001}
-  m_LocalScale: {x: 0.100368, y: 0.08346391, z: 0.2}
+  m_LocalPosition: {x: 2.45, y: -0.69, z: 0.2015}
+  m_LocalScale: {x: 0.100368, y: 0.1, z: 0}
   m_Children: []
   m_Father: {fileID: 1155690028}
   m_RootOrder: 0
@@ -218,7 +219,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.00012207031, y: -0.000015258789}
   serializedVersion: 2
-  m_Radius: 7.5
+  m_Radius: 6.5
 --- !u!256 &463771952
 FrictionJoint2D:
   m_ObjectHideFlags: 0
@@ -228,13 +229,13 @@ FrictionJoint2D:
   m_GameObject: {fileID: 463771948}
   m_Enabled: 1
   serializedVersion: 4
-  m_EnableCollision: 0
+  m_EnableCollision: 1
   m_ConnectedRigidBody: {fileID: 1155690026}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -3.2000053, y: -0.93599993}
+  m_ConnectedAnchor: {x: 2.4499958, y: -0.68999946}
   m_MaxForce: 1
   m_MaxTorque: 1
 --- !u!50 &463771953
@@ -257,7 +258,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!235 &463771954
 WheelJoint2D:
   m_ObjectHideFlags: 0
@@ -282,6 +283,20 @@ WheelJoint2D:
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
+--- !u!114 &463771955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463771948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a959bab51428ea48aa7eaa810538c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheel: {fileID: 463771949}
+  rpm: 1000
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,6 +392,7 @@ GameObject:
   - component: {fileID: 520518518}
   - component: {fileID: 520518519}
   - component: {fileID: 520518521}
+  - component: {fileID: 520518522}
   - component: {fileID: 520518520}
   m_Layer: 0
   m_Name: wheel2
@@ -392,13 +408,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520518516}
-  m_LocalRotation: {x: 0.0017452928, y: 0.0017452928, z: -0.0000030460562, w: 0.99999696}
-  m_LocalPosition: {x: 2.52, y: -0.896, z: 0.2001}
-  m_LocalScale: {x: 0.09191667, y: 0.08180806, z: 0.20014797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.68, y: -4.31, z: 0.199}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0}
   m_Children: []
   m_Father: {fileID: 1155690028}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0.2, y: 0.2, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &520518518
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -462,7 +478,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.00012207031, y: 0}
   serializedVersion: 2
-  m_Radius: 6
+  m_Radius: 6.5
 --- !u!256 &520518520
 FrictionJoint2D:
   m_ObjectHideFlags: 0
@@ -478,7 +494,7 @@ FrictionJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -5.5297003, y: 0.8839644}
+  m_ConnectedAnchor: {x: -5.090377, y: 0.63160026}
   m_MaxForce: 1
   m_MaxTorque: 1
 --- !u!50 &520518521
@@ -501,7 +517,21 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &520518522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520518516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a959bab51428ea48aa7eaa810538c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheel: {fileID: 520518517}
+  rpm: 1000
 --- !u!1 &1003082388
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,7 +650,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003082388}
   m_LocalRotation: {x: -0, y: -0, z: 0.2855731, w: 0.958357}
-  m_LocalPosition: {x: 0.448, y: 1.474, z: -12.373779}
+  m_LocalPosition: {x: 0.448, y: 1.474, z: 0}
   m_LocalScale: {x: 0.06758859, y: 0.808475, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -748,7 +778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155690024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.61, y: 0.916, z: -12.549621}
+  m_LocalPosition: {x: -5.3351, y: 0.7857, z: 0}
   m_LocalScale: {x: 0.031865038, y: 0.035754003, z: 1}
   m_Children:
   - {fileID: 463771949}
@@ -849,7 +879,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252964359}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.002, y: 1.999, z: -12.374003}
+  m_LocalPosition: {x: 0.002, y: 1.999, z: 0}
   m_LocalScale: {x: 0.4995, y: 0.4897, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1029,7 +1059,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329335825}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.062834084, y: -0.027947469, z: -0.75}
+  m_LocalPosition: {x: -0.062834084, y: -0.027947469, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
