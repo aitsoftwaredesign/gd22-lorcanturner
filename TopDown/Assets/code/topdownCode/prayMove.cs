@@ -5,7 +5,7 @@ using UnityEngine;
 public class prayMove : MonoBehaviour
 {
     float speed = 10;
-    float turnSpeed = 400;
+    public float turnSpeed = 400;
     Rigidbody2D rb;
 
     // Start is called before the first frame update
