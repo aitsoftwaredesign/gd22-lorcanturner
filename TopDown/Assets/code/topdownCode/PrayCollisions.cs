@@ -24,7 +24,7 @@ public class PrayCollisions : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-      if(collision.gameObject.CompareTag("preditor"))
+        if (collision.gameObject.CompareTag("preditor"))
         {
             Destroy(collision.gameObject);
             playerLives = playerLives - 1;
