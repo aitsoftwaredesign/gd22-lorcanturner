@@ -8,7 +8,7 @@ public class predDestroy : MonoBehaviour
 
     void OnCollision2D(Collision2D collision)
     {
-
+        
     }
     
 }

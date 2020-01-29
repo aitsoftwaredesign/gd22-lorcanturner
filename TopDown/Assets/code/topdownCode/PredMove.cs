@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class PredMove : MonoBehaviour
 {
-    public Transform pray;
-    public Transform pred;
-    public object prayObj;
-    public float MovementSpeed = 1;
+    public Transform prayObj;
+    public float speed = 1;
+
    
 
 
@@ -26,27 +25,15 @@ public class PredMove : MonoBehaviour
 
     void follow()
     {
-        if(Mathf.Abs(pred.transform.position.x - pray.transform.position.x) > MovementSpeed* Time.deltaTime)
+       float speedDelta = speed * Time.deltaTime;
+
+        transform.position = Vector3.MoveTowards(transform.position, prayObj.position, speedDelta);
+
+        if(Vector3.Distance(transform.position, prayObj.position) < 0.00f)
         {
-         if (pred.position.x > pray.position.x)
-                {
-                    transform.Translate(-(MovementSpeed * Time.deltaTime), 0, 0);
-                }
-                else
-                {
-                    transform.Translate(MovementSpeed * Time.deltaTime, 0, 0);
-                }
-         }
-        if (Mathf.Abs(pred.transform.position.y - pray.transform.position.y) > MovementSpeed * Time.deltaTime)
-        {
-            if (pred.position.y > pray.position.y)
-            {
-                transform.Translate(0, -(MovementSpeed * Time.deltaTime), 0);
-            }
-            else
-            {
-                transform.Translate(0, MovementSpeed * Time.deltaTime, 0);
-            }
+            prayObj.position *= -1.0f;
         }
+
+       
     }
 }

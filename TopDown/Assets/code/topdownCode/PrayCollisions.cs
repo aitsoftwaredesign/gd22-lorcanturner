@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PrayCollisions : MonoBehaviour
 {
-    public Transform pray;
-    public Rigidbody2D boundry;
+    public float playerLives;
+    public GameObject preditor;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,14 +15,19 @@ public class PrayCollisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(playerLives < 1 )
+        {
+            Destroy(gameObject);
+        }
         
     }
+
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "wall")  // or if(gameObject.CompareTag("YourWallTag"))
+      if(collision.gameObject.CompareTag("preditor"))
         {
-            transform.Translate(0, 0, 0);
-           
+            Destroy(collision.gameObject);
+            playerLives = playerLives - 1;
         }
     }
 }
