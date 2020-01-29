@@ -5,7 +5,7 @@ using UnityEngine;
 public class PrayCollisions : MonoBehaviour
 {
     public float playerLives;
-    public GameObject preditor;
+ 
     // Start is called before the first frame update
     void Start()
     {
@@ -15,19 +15,26 @@ public class PrayCollisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerLives < 1 )
-        {
-            Destroy(gameObject);
-        }
+ 
         
     }
 
-    void OnCollisionEnter(Collision collision)
+    void lives()
+    {
+
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("preditor"))
         {
             Destroy(collision.gameObject);
             playerLives = playerLives - 1;
+                   
+            if(playerLives < 1 )
+            {
+              Destroy(gameObject);
+            }
         }
     }
 }
