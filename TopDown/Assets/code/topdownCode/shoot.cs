@@ -6,7 +6,7 @@ public class shoot : MonoBehaviour
 {
     public Transform firepoint;
     public GameObject bulletPrefab;
-
+    float mag = 5;
     public float bulletForce = 200f;
 
     // Start is called before the first frame update
@@ -21,13 +21,27 @@ public class shoot : MonoBehaviour
         if(Input.GetKeyDown("space"))
         {
             Shoot();
+            mag = mag - 1;
         }
+        reload();
     }
     void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(firepoint.up * bulletForce, ForceMode2D.Impulse);
+        if (mag > 0)
+        { 
+            GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(firepoint.up * bulletForce, ForceMode2D.Impulse);
+       
+        }
+    }
+
+    void reload()
+    {
+        if(Input.GetKeyDown("r"))
+        {
+            mag = 5;
+        }
     }
 
 

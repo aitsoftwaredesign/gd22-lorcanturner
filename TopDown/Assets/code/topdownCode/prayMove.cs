@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class prayMove : MonoBehaviour
 {
-    float speed = 10;
+    public float speed = 10;
     public float turnSpeed = 400;
     Rigidbody2D rb;
 
