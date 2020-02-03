@@ -390,6 +390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 597620d4970728e4a9f373e67cffa8d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
   turnSpeed: 200
 --- !u!23 &366284544
 MeshRenderer:
@@ -502,8 +503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 027e1a8522c3dac4cbae051b67dedc52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerLives: 5
-  preditor: {fileID: 0}
 --- !u!50 &366284549
 Rigidbody2D:
   serializedVersion: 4
@@ -702,7 +701,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prayObj: {fileID: 366284542}
-  speed: 1
+  speed: 2
+  followPlayerDistance: 2
+  anim: {fileID: 0}
 --- !u!23 &443999923
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -893,10 +894,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 443999921}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb9d6ed5a264d8142b6cf38b1e756935, type: 3}
+  m_Script: {fileID: 11500000, guid: 69650383f7e4f594582afabb14fab0e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 3243005550847516110, guid: fb3e4d58be1a275408813ed366c4f801, type: 3}
+  target: {fileID: 366284542}
 --- !u!1 &456567135
 GameObject:
   m_ObjectHideFlags: 0
