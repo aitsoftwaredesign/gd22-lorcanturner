@@ -28,9 +28,12 @@ public class moving : MonoBehaviour
         Vector3 currentPosition = transform.position;
         Vector3 destinationPosition = target.transform.position;
         Vector3 range = destinationPosition - currentPosition;
-        Vector3 currentNorm = Vector3.Normalize.currentPosition;
+        
 
         Debug.DrawRay(currentPosition, range, Color.red);
+
+        Debug.DrawRay(currentPosition, range.normalized, Color.blue);
+
         Vector3 newPosition = currentPosition;
         return newPosition;
     }

@@ -677,7 +677,6 @@ GameObject:
   - component: {fileID: 443999925}
   - component: {fileID: 443999924}
   - component: {fileID: 443999923}
-  - component: {fileID: 443999922}
   - component: {fileID: 443999928}
   - component: {fileID: 443999926}
   - component: {fileID: 443999927}
@@ -688,22 +687,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &443999922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443999921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cab65255d997b224c95b692b92e4064f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prayObj: {fileID: 366284542}
-  speed: 2
-  followPlayerDistance: 2
-  anim: {fileID: 0}
 --- !u!23 &443999923
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -759,7 +742,7 @@ Transform:
   m_GameObject: {fileID: 443999921}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.274, y: -0.084, z: 0}
-  m_LocalScale: {x: 1.545764, y: 1.4450761, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
