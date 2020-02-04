@@ -17,7 +17,7 @@ public class PrayCollisions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
- 
+      
         
     }
 
@@ -39,7 +39,6 @@ public class PrayCollisions : MonoBehaviour
                 //use this for the restart button
                 SceneManager.LoadScene("TopDown");
                 playerLives = playerLives + 5;
-                bullet.dead = false;
             }
         }
     }

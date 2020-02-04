@@ -130,7 +130,6 @@ GameObject:
   m_Component:
   - component: {fileID: 67126810}
   - component: {fileID: 67126814}
-  - component: {fileID: 67126813}
   - component: {fileID: 67126812}
   - component: {fileID: 67126811}
   m_Layer: 0
@@ -161,7 +160,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67126809}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -182,25 +181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47131a4b14e92b2468eaa2ba15022be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &67126813
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67126809}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bc54d5ecfe238114b84c36b042a7e6e0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &67126814
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1012,8 +992,6 @@ GameObject:
   m_Component:
   - component: {fileID: 303451645}
   - component: {fileID: 303451646}
-  - component: {fileID: 303451648}
-  - component: {fileID: 303451649}
   - component: {fileID: 303451647}
   m_Layer: 0
   m_Name: GameObject
@@ -1092,7 +1070,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303451644}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1101,37 +1079,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.2}
   serializedVersion: 2
   m_Radius: 0.7
---- !u!95 &303451648
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303451644}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bc54d5ecfe238114b84c36b042a7e6e0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &303451649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303451644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47131a4b14e92b2468eaa2ba15022be1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &324955376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,6 +1313,7 @@ GameObject:
   - component: {fileID: 366284547}
   - component: {fileID: 366284549}
   - component: {fileID: 366284550}
+  - component: {fileID: 366284551}
   m_Layer: 0
   m_Name: pray
   m_TagString: Player
@@ -1552,6 +1500,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.1}
   serializedVersion: 2
   m_Radius: 0.6
+--- !u!114 &366284551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366284541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066ec29078fead643b24ef01e2146a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &425472149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,8 +1649,6 @@ GameObject:
   - component: {fileID: 443999925}
   - component: {fileID: 443999922}
   - component: {fileID: 443999926}
-  - component: {fileID: 443999929}
-  - component: {fileID: 443999928}
   - component: {fileID: 443999924}
   - component: {fileID: 443999923}
   m_Layer: 0
@@ -1715,7 +1673,7 @@ MonoBehaviour:
   prayObj: {fileID: 366284542}
   speed: 5
   followPlayerDistance: 8
-  anim: {fileID: 303451648}
+  anim: {fileID: 0}
 --- !u!212 &443999923
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1890,46 +1848,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!95 &443999928
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443999921}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8670bb3caf88af341a5843411725dcf2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!50 &443999929
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443999921}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 60
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &456567135
 GameObject:
   m_ObjectHideFlags: 0
@@ -2777,7 +2695,7 @@ MonoBehaviour:
   prayObj: {fileID: 366284542}
   speed: 5
   followPlayerDistance: 8
-  anim: {fileID: 67126813}
+  anim: {fileID: 0}
 --- !u!1 &800812801
 GameObject:
   m_ObjectHideFlags: 0

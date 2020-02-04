@@ -9,8 +9,6 @@ public class PredMove : MonoBehaviour
     float distance;
     public float followPlayerDistance;
     public Animator anim;
-    
-
 
     // Start is called before the first frame update
     void Start()
@@ -26,35 +24,16 @@ public class PredMove : MonoBehaviour
         {
             distance = Vector3.Distance(prayObj.transform.position, transform.position);
             Debug.Log("enemy is : " + distance + " units away from prey" );
-            if (bullet.dead == false)
-            {
+        
                 if (distance < followPlayerDistance)
-                {
+                {  
+                    Vector3 range =  prayObj.transform.position - transform.position;
+                    Debug.DrawRay(transform.position, range, Color.green);
                     follow();
                     rotateTowards();
-                    anim.SetFloat("speed", 1);
                 }
-                else
-                {
-                    anim.SetFloat("speed", 0);
-
-                }
-            } 
-    
-             if(bullet.dead == true)
-             {
-                 anim.SetBool("isShot", true);
-               
-
-             }
-            else
-            {
-                anim.SetBool("isShot", false);
-            }
-
-                
+          
         }
-        
     }
 
     void follow()
