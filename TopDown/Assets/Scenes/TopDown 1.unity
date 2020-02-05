@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 443999926}
   - component: {fileID: 443999927}
   m_Layer: 0
-  m_Name: preditor
+  m_Name: preditorAlwaysFollows
   m_TagString: preditor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -881,6 +881,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 366284542}
+  speed: 2
+  chaseRange: 0
 --- !u!1 &456567135
 GameObject:
   m_ObjectHideFlags: 0
