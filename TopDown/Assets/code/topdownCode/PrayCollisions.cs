@@ -37,7 +37,7 @@ public class PrayCollisions : MonoBehaviour
             {
               Destroy(gameObject);
                 //use this for the restart button
-                SceneManager.LoadScene("TopDown");
+                SceneManager.LoadScene("challange 1");
                 playerLives = playerLives + 5;
             }
         }
