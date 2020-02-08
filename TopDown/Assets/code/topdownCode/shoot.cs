@@ -7,7 +7,7 @@ public class shoot : MonoBehaviour
     public Transform firepoint;
     public GameObject bulletPrefab;
     float mag = 5;
-    public float bulletForce = 200f;
+    public float bulletForce = 10f;
 
     // Start is called before the first frame update
     void Start()

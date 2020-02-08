@@ -130,7 +130,6 @@ GameObject:
   m_Component:
   - component: {fileID: 67126810}
   - component: {fileID: 67126814}
-  - component: {fileID: 67126812}
   - component: {fileID: 67126811}
   m_Layer: 0
   m_Name: GameObject
@@ -169,18 +168,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.2}
   serializedVersion: 2
   m_Radius: 0.7
---- !u!114 &67126812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67126809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47131a4b14e92b2468eaa2ba15022be1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &67126814
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2689,13 +2676,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 752135330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cab65255d997b224c95b692b92e4064f, type: 3}
+  m_Script: {fileID: 11500000, guid: cf93d46a8f611a449b61508e7fc03fcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prayObj: {fileID: 366284542}
-  speed: 5
-  followPlayerDistance: 8
-  anim: {fileID: 0}
+  target: {fileID: 366284542}
+  speed: 3
 --- !u!1 &800812801
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class bullet : MonoBehaviour
 {
     
-
     public static int kills = 0;
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -14,12 +14,24 @@ public class bullet : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
             kills = kills + 1;
-
+            
         }
         
         if(collision.gameObject.CompareTag("obticle"))
         {
             Destroy(gameObject);
+            
+        }
+
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            PrayCollisions.playerLives -= 1;
+            Destroy(gameObject);
+           //animation for bullet will be added
+            if(PrayCollisions.playerLives < 1)
+            {
+                Destroy(collision.gameObject);
+            }
         }
 
        
