@@ -20,7 +20,7 @@ public class PredMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (prayObj)
+        if (prayObj && health.playerLives <= 3)
         {
             distance = Vector3.Distance(prayObj.transform.position, transform.position);
             Debug.Log("enemy is : " + distance + " units away from prey" );

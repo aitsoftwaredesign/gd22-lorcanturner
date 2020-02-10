@@ -32,21 +32,20 @@ public class ShootingEnemy : MonoBehaviour
                  Debug.Log("enemy is : " + distance + " units away from prey");
                  Vector3 range = pray.transform.position - transform.position;
                  Debug.DrawRay(transform.position, range, Color.magenta);
-              
+                 timer -= Time.deltaTime;
                  rotate();
                  if(gameObject)
-                 {
-                      if(distance < 10 && distance > 4)
+                 { 
+                      if(distance < 10 && distance >= 4f)
                       {
                             movement();
-                            timer -= Time.deltaTime;
-                            if (timer <=0 && distance < 10)
-                             {
-                                     Shoot(); 
-                        //    Debug.LogWarning("bullets are shooting. why cant you see them");
-                                    timer = 2;
-                             }
                       }
+                      if(timer <= 0)
+                    {
+                        Shoot();
+                        //    Debug.LogWarning("bullets are shooting. why cant you see them");
+                        timer = 2f;
+                    }
                  }
 
             }

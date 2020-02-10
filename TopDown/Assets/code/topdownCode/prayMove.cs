@@ -8,10 +8,13 @@ public class prayMove : MonoBehaviour
     public float turnSpeed = 400;
     Rigidbody2D rb;
 
+    private Vector3 lastPosition;
+   
     // Start is called before the first frame update
     void Start()
     {
-        
+       // lastPosition = transform.position;
+        //Vector3 velocity = 
     }
 
     // Update is called once per frame
@@ -19,19 +22,19 @@ public class prayMove : MonoBehaviour
     {
         moveForward();
         turn();
+        //Debug.DrawRay()
     }
 
     void moveForward()
     {
-        if(Input.GetKey("w"))
+        if (Input.GetKey("w"))
         {
-            transform.Translate(0, speed * Time.deltaTime, 0);
+           transform.Translate(0, speed * Time.deltaTime, 0);
         }
-    }
 
-    void FixedUpdate()
-    {
+     //   Vector3 velocity = lastPosition - transform.position;
        
+
     }
 
     void turn()

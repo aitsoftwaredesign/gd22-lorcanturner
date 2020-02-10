@@ -25,10 +25,10 @@ public class bullet : MonoBehaviour
 
         if(collision.gameObject.CompareTag("Player"))
         {
-            PrayCollisions.playerLives -= 1;
+            health.playerLives -= 1;
             Destroy(gameObject);
            //animation for bullet will be added
-            if(PrayCollisions.playerLives < 1)
+            if(health.playerLives < 1)
             {
                 Destroy(collision.gameObject);
             }
