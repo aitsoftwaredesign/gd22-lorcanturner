@@ -28,11 +28,14 @@ public class ShootingEnemy : MonoBehaviour
         {
             if (pray)
             {
+                PredictPosition();
                  distance = Vector3.Distance(pray.transform.position, transform.position);
                  Debug.Log("enemy is : " + distance + " units away from prey");
                  Vector3 range = pray.transform.position - transform.position;
+        
                  Debug.DrawRay(transform.position, range, Color.magenta);
                  timer -= Time.deltaTime;
+               
                  rotate();
                  if(gameObject)
                  { 
@@ -40,14 +43,19 @@ public class ShootingEnemy : MonoBehaviour
                       {
                             movement();
                       }
-                      if(timer <= 0)
-                    {
+                      if(timer <= 0 && distance <= 10)
+                     {
                         Shoot();
                         //    Debug.LogWarning("bullets are shooting. why cant you see them");
                         timer = 2f;
-                    }
+                       }
+         
                  }
 
+            }
+            else
+            {
+                Destroy(bulletPrefab);
             }
         }
         
@@ -77,6 +85,13 @@ public class ShootingEnemy : MonoBehaviour
             pray.position *= -1.0f;
         }
 
+    }
+
+    void PredictPosition()
+    { 
+        Vector3 futurePosition = pray.transform.position + (transform.position * (shEnemySpeed * Time.deltaTime));
+        Vector3 predictedRange = pray.transform.position - transform.position;
+        Debug.DrawLine(transform.position, futurePosition, Color.cyan);
     }
 
     void rotate()

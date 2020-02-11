@@ -6,9 +6,10 @@ public class prayMove : MonoBehaviour
 {
     public float speed = 10;
     public float turnSpeed = 400;
-    Rigidbody2D rb;
+    
 
     private Vector3 lastPosition;
+    private Quaternion lastRotation;
    
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class prayMove : MonoBehaviour
         moveForward();
         turn();
         //Debug.DrawRay()
+        velocity();
     }
 
     void moveForward()
@@ -32,8 +34,24 @@ public class prayMove : MonoBehaviour
            transform.Translate(0, speed * Time.deltaTime, 0);
         }
 
-     //   Vector3 velocity = lastPosition - transform.position;
+   
        
+
+    }
+
+    void velocity()
+    {
+        if(transform.rotation.y != lastRotation.y && transform.rotation.y - lastRotation.y >=0)
+        {
+            //statement here
+        }
+        if (transform.rotation.y != lastRotation.y && transform.rotation.y - lastRotation.y <= 0)
+        {
+            //statement here
+        }
+
+        lastRotation = transform.rotation;
+
 
     }
 
