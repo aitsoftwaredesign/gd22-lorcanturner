@@ -55,7 +55,7 @@ public class ShootingEnemy : MonoBehaviour
             }
             else
             {
-                Destroy(bulletPrefab);
+                DestroyImmediate(bulletPrefab);
             }
         }
         
