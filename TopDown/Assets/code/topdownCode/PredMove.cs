@@ -31,6 +31,7 @@ public class PredMove : MonoBehaviour
                     Debug.DrawRay(transform.position, range, Color.green);
                     follow();
                     rotateTowards();
+
                 }
           
         }

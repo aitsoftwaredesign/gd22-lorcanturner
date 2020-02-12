@@ -6,16 +6,17 @@ public class prayMove : MonoBehaviour
 {
     public float speed = 10;
     public float turnSpeed = 400;
-    
+    public static float currentSpeed = 0;
+    public Transform predition;
 
-    private Vector3 lastPosition;
-    private Quaternion lastRotation;
+
+    Vector3 direction;
+    
    
     // Start is called before the first frame update
     void Start()
     {
-       // lastPosition = transform.position;
-        //Vector3 velocity = 
+
     }
 
     // Update is called once per frame
@@ -25,13 +26,22 @@ public class prayMove : MonoBehaviour
         turn();
         //Debug.DrawRay()
         velocity();
+
+
+        
     }
 
     void moveForward()
     {
         if (Input.GetKey("w"))
         {
+            currentSpeed = 10;
            transform.Translate(0, speed * Time.deltaTime, 0);
+
+        }
+        else
+        {
+            currentSpeed = 0;
         }
 
    
@@ -41,17 +51,17 @@ public class prayMove : MonoBehaviour
 
     void velocity()
     {
-        if(transform.rotation.y != lastRotation.y && transform.rotation.y - lastRotation.y >=0)
+        if(currentSpeed > 5)
         {
-            //statement here
+            predition.transform.Translate(0, 2, 0);
+           
+            
+            Debug.DrawRay(transform.position, predition.transform.position.normalized * 2, Color.blue);
         }
-        if (transform.rotation.y != lastRotation.y && transform.rotation.y - lastRotation.y <= 0)
+        else
         {
-            //statement here
+            predition.transform.Translate(transform.position);
         }
-
-        lastRotation = transform.rotation;
-
 
     }
 

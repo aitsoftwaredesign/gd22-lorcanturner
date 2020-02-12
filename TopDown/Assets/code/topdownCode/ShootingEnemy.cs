@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ShootingEnemy : MonoBehaviour
 {
+    public Transform preditionPoint;
     public Transform pray;
-    public float shEnemySpeed = 4;
+    public float shEnemySpeed = 0;
     float speedDelta;
     float distance;
     public Transform firepoint;
@@ -31,9 +32,9 @@ public class ShootingEnemy : MonoBehaviour
                 PredictPosition();
                  distance = Vector3.Distance(pray.transform.position, transform.position);
                  Debug.Log("enemy is : " + distance + " units away from prey");
-                 Vector3 range = pray.transform.position - transform.position;
+                
         
-                 Debug.DrawRay(transform.position, range, Color.magenta);
+                
                  timer -= Time.deltaTime;
                
                  rotate();
@@ -88,10 +89,21 @@ public class ShootingEnemy : MonoBehaviour
     }
 
     void PredictPosition()
-    { 
-        Vector3 futurePosition = pray.transform.position + (transform.position * (shEnemySpeed * Time.deltaTime));
+    {
+        if(prayMove.currentSpeed > 5)
+        {
+            Vector3 range = preditionPoint.transform.position - transform.position;
+            Debug.DrawRay(transform.position, range, Color.cyan);
+        }
+        else
+        {
+            Vector3 range = pray.transform.position - transform.position;
+            Debug.DrawRay(transform.position, range, Color.cyan);
+        }
+
+        /*Vector3 futurePosition = pray.transform.position + (transform.position * (shEnemySpeed * Time.deltaTime));
         Vector3 predictedRange = pray.transform.position - transform.position;
-        Debug.DrawLine(transform.position, futurePosition, Color.cyan);
+        Debug.DrawLine(transform.position, futurePosition, Color.cyan);*/
     }
 
     void rotate()
