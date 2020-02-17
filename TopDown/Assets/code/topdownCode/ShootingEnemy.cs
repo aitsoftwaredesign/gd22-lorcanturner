@@ -107,11 +107,21 @@ public class ShootingEnemy : MonoBehaviour
     }
 
     void rotate()
-    {       
+    {
         //rotation
-        transform.eulerAngles = new Vector3(0, 0, -transform.eulerAngles.z ); //keeps enemy on z axis
-        transform.LookAt(pray.position, transform.up);
-        transform.Rotate(new Vector3(0, -90, 0), Space.Self);
+        if (prayMove.currentSpeed > 5)
+        {
+            transform.eulerAngles = new Vector3(0, 0, -transform.eulerAngles.z); //keeps enemy on z axis
+            transform.LookAt(preditionPoint.position, transform.up);
+            transform.Rotate(new Vector3(0, -90, 0), Space.Self);
+        }
+        else
+        {
+            transform.eulerAngles = new Vector3(0, 0, -transform.eulerAngles.z ); //keeps enemy on z axis
+            transform.LookAt(pray.position, transform.up);
+            transform.Rotate(new Vector3(0, -90, 0), Space.Self);
+        }
+            
 
     }
 

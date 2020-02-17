@@ -25,7 +25,7 @@ public class prayMove : MonoBehaviour
         moveForward();
         turn();
         //Debug.DrawRay()
-        velocity();
+       //velocity();
 
 
         
@@ -60,7 +60,8 @@ public class prayMove : MonoBehaviour
         }
         else
         {
-            predition.transform.Translate(transform.position);
+            predition.transform.Translate(0, 0, 0);
+            Debug.DrawRay(transform.position, predition.transform.position.normalized * 2, Color.blue);
         }
 
     }
