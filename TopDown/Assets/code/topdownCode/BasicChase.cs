@@ -47,6 +47,8 @@ public class BasicChase : MonoBehaviour
             {
                 transform.Translate(0, -speedDelta, 0);
             }
+   
+ 
         
 
     }
