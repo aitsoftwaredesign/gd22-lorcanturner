@@ -4349,7 +4349,7 @@ MonoBehaviour:
   pray: {fileID: 366284542}
   shEnemySpeed: 6
   firepoint: {fileID: 2113590583}
-  bulletPrefab: {fileID: 7927408301316426, guid: 4bbbaf51a2c63974c96641d645fed4d0,
+  bulletPrefab: {fileID: 9088061437327722301, guid: 785631f638f9e64408af145bffcc8e86,
     type: 3}
 --- !u!58 &1499594034
 CircleCollider2D:
