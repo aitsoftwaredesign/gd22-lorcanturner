@@ -1,12 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
+
 
 
 public class bullet : MonoBehaviour
 {
     
     public static int kills = 0;
+
+    void update()
+    {
+        if(kills == 10)
+        {
+            SceneManager.LoadScene("simpleYouWin");
+            kills = 0;
+        }
+    }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("preditor"))

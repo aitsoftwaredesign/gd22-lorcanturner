@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class bulletE : MonoBehaviour
 {
 
@@ -29,6 +30,7 @@ public class bulletE : MonoBehaviour
             if (health.playerLives < 1)
             {
                 Destroy(collision.gameObject);
+                Death.dead();
             }
         }
     }
