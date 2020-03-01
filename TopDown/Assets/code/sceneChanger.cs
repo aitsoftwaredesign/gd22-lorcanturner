@@ -8,6 +8,6 @@ public class sceneChanger : MonoBehaviour
     // Start is called before the first frame update
     public void changeScene()
     {
-        SceneManager.LoadScene("challange 3");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
     }
 }

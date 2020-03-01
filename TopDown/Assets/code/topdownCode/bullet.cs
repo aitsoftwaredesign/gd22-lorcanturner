@@ -12,11 +12,7 @@ public class bullet : MonoBehaviour
 
     void update()
     {
-        if(kills == 10)
-        {
-            SceneManager.LoadScene("simpleYouWin");
-            kills = 0;
-        }
+
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -25,7 +21,15 @@ public class bullet : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
             kills = kills + 1;
-            
+
+
+            if (kills > 5)
+            {
+                Debug.Log("hella kills my dude!");
+                SceneManager.LoadScene("simpleYouWin");
+                kills = 0;
+            }
+
         }
         
         if(collision.gameObject.CompareTag("obticle"))
@@ -43,6 +47,7 @@ public class bullet : MonoBehaviour
             {
                 Destroy(collision.gameObject);
             }
+
         }
 
        
