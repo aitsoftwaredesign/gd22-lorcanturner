@@ -26,7 +26,7 @@ public class bullet : MonoBehaviour
             if (kills > 5)
             {
                 Debug.Log("hella kills my dude!");
-                SceneManager.LoadScene("simpleYouWin");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 kills = 0;
             }
 

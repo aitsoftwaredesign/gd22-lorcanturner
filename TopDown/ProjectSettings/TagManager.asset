@@ -6,6 +6,7 @@ TagManager:
   tags:
   - preditor
   - obticle
+  - key
   layers:
   - Default
   - TransparentFX

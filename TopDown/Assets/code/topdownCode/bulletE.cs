@@ -18,7 +18,7 @@ public class bulletE : MonoBehaviour
 
         if (collision.gameObject.CompareTag("obticle"))
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
 
         }
 

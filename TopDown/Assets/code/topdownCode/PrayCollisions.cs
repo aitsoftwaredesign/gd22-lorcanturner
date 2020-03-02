@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PrayCollisions : MonoBehaviour
 {
-    
+    public static bool hasKey = false;
 
  
     // Start is called before the first frame update
@@ -39,6 +39,12 @@ public class PrayCollisions : MonoBehaviour
                 //use this for the restart button
                 Death.dead();
             }
+        }
+
+        if(collision.gameObject.CompareTag("key"))
+        {
+            Destroy(collision.gameObject);
+            hasKey = true;
         }
     }
 }
