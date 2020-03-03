@@ -6,6 +6,7 @@ using UnityEngine;
 public class PrayCollisions : MonoBehaviour
 {
     public static bool hasKey = false;
+    public static int keyAmount = 0;
 
  
     // Start is called before the first frame update
@@ -44,7 +45,8 @@ public class PrayCollisions : MonoBehaviour
         if(collision.gameObject.CompareTag("key"))
         {
             Destroy(collision.gameObject);
-            hasKey = true;
+           
+            keyAmount++;
         }
     }
 }

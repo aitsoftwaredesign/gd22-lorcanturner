@@ -32,7 +32,7 @@ public class bullet : MonoBehaviour
 
         }
         
-        if(collision.gameObject.CompareTag("obticle"))
+        if(collision.gameObject.CompareTag("obticle") || collision.gameObject.CompareTag("key"))
         {
             Destroy(gameObject);
             

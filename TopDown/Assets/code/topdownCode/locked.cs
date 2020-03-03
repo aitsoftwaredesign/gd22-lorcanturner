@@ -22,14 +22,31 @@ public class locked : MonoBehaviour
         {
             gameObject.GetComponent<Rigidbody2D>().mass = 1000000;
         }
+
+        if (PrayCollisions.keyAmount < 1)
+        {
+            PrayCollisions.hasKey = false;
+
+        }
+        else
+        {
+            PrayCollisions.hasKey = true;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && PrayCollisions.hasKey == true)
         {
+           
+            if(doorLocked == true)
+            {
+                PrayCollisions.keyAmount--;
+            }
             doorLocked = false;
-            PrayCollisions.hasKey = false;
+
+            
+
         }
 
             
