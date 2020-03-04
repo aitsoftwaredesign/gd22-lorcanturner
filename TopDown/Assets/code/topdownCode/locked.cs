@@ -16,7 +16,7 @@ public class locked : MonoBehaviour
     {
         if(doorLocked == false)
         {
-            gameObject.GetComponent<Rigidbody2D>().mass = 14;
+            gameObject.GetComponent<Rigidbody2D>().mass = 1000;
         }
         else
         {
