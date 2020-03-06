@@ -11,14 +11,14 @@ public class bulletE : MonoBehaviour
         if (collision.gameObject.CompareTag("preditor"))
         {
 
-            Destroy(gameObject);
-
+     
+            DestroyImmediate(gameObject);
 
         }
 
         if (collision.gameObject.CompareTag("obticle"))
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
 
         }
 

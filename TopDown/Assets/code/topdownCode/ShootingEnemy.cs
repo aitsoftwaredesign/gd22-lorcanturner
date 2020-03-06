@@ -11,7 +11,7 @@ public class ShootingEnemy : MonoBehaviour
     float distance;
     public Transform firepoint;
     public GameObject bulletPrefab;
-    float bulletForce = 10;
+    float bulletForce = 1;
     float timer = 3;
 
 

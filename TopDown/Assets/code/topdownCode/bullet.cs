@@ -23,7 +23,7 @@ public class bullet : MonoBehaviour
             kills = kills + 1;
 
 
-            if (kills > 5)
+            if (kills > 10)
             {
                 Debug.Log("hella kills my dude!");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
