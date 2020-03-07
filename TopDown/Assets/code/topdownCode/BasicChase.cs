@@ -29,24 +29,29 @@ public class BasicChase : MonoBehaviour
     {
       
             float speedDelta = speed * Time.deltaTime;
-
-            if(transform.position.x < target.transform.position.x)
+        if (Mathf.Abs(transform.position.x - target.transform.position.x) > speedDelta)
+        {
+            if (transform.position.x < target.transform.position.x)
             {
-                transform.Translate(speedDelta , 0, 0);
+                transform.Translate(speedDelta, 0, 0);
             }
-            else if(transform.position.x > target.transform.position.x)
+            else if (transform.position.x > target.transform.position.x)
             {
                 transform.Translate(-speedDelta, 0, 0);
             }
+        }
 
+        if (Mathf.Abs(transform.position.y - target.transform.position.y) > speedDelta)
+        {
             if (transform.position.y < target.transform.position.y)
             {
-                transform.Translate(0,speedDelta , 0);
+                transform.Translate(0, speedDelta, 0);
             }
-            else if(transform.position.y > target.transform.position.y)
+            else if (transform.position.y > target.transform.position.y)
             {
                 transform.Translate(0, -speedDelta, 0);
             }
+        }
    
  
         

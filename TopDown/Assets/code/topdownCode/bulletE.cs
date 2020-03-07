@@ -12,7 +12,7 @@ public class bulletE : MonoBehaviour
         {
 
      
-            DestroyImmediate(gameObject);
+            Destroy(gameObject);
 
         }
 
@@ -25,13 +25,24 @@ public class bulletE : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             health.playerLives -= 1;
-            Destroy(gameObject);
+          
             //animation for bullet will be added
             if (health.playerLives < 1)
             {
-                Destroy(collision.gameObject);
+                if(gameObject)
+                {
+                    Destroy(gameObject);
+                }
+               
+               
                 Death.dead();
             }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
+
+
     }
 }
