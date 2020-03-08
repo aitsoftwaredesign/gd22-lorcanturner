@@ -90,6 +90,7 @@ public class ShootingEnemy : MonoBehaviour
 
     void PredictPosition()
     {
+
         if(prayMove.currentSpeed > 5)
         {
             Vector3 range = preditionPoint.transform.position - transform.position;

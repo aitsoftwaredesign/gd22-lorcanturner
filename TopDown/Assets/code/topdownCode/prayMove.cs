@@ -16,7 +16,7 @@ public class prayMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        predition.transform.Translate(0, 2, 0);
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class prayMove : MonoBehaviour
         moveForward();
         turn();
         //Debug.DrawRay()
-       //velocity();
+       velocity();
 
 
         
@@ -45,6 +45,7 @@ public class prayMove : MonoBehaviour
         }
 
    
+
        
 
     }
@@ -53,15 +54,13 @@ public class prayMove : MonoBehaviour
     {
         if(currentSpeed > 5)
         {
-            predition.transform.Translate(0, 2, 0);
-           
-            
-            Debug.DrawRay(transform.position, predition.transform.position.normalized * 2, Color.blue);
+          
+            Debug.DrawRay(transform.position, predition.transform.position.normalized * 5 , Color.blue);
         }
         else
         {
-            predition.transform.Translate(0, 0, 0);
-            Debug.DrawRay(transform.position, predition.transform.position.normalized * 2, Color.blue);
+            //predition.transform.Translate(0, 0, 0);
+           // Debug.DrawRay(transform.position, predition.transform.position.normalized * 2, Color.blue);
         }
 
     }

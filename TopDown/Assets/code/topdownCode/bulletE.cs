@@ -10,16 +10,12 @@ public class bulletE : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("preditor"))
         {
-
-     
             Destroy(gameObject);
-
         }
 
         if (collision.gameObject.CompareTag("obticle"))
         {
             Destroy(gameObject);
-
         }
 
         if (collision.gameObject.CompareTag("Player"))
@@ -33,8 +29,6 @@ public class bulletE : MonoBehaviour
                 {
                     Destroy(gameObject);
                 }
-               
-               
                 Death.dead();
             }
             else
@@ -42,7 +36,5 @@ public class bulletE : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-
-
     }
 }
