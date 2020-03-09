@@ -32,7 +32,7 @@ public class PatternMovement : MonoBehaviour {
 
         // Create a pattern (or an instruction list) with the control data
         pattern = new ControlData[] { pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdd, pdd, pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl, pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl, pdd, pdd, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr,pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr,
-        pdd, pdd, pdl, pdl,  pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl, pdd, pdd, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr,pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdd, pdd, pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl,pdd,pdd};
+        pdd, pdd, pdl, pdl,  pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl, pdd, pdd, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr,pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdr, pdd, pdd, pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl,  pdl, pdl,  pdl, pdl, pdl, pdl, pdl, pdl, pdd,pdd};
 
     }
 	

@@ -24,8 +24,6 @@ public class SpaceInvadersManager : MonoBehaviour
                 Instantiate(spaceInvader, startTransform.position + gap, transform.rotation);
             }
         }
-        
-
     }
 	
 	// Update is called once per frame

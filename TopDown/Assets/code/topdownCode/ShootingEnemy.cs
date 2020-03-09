@@ -135,9 +135,7 @@ public class ShootingEnemy : MonoBehaviour
               rb.AddForce(firepoint.up * bulletForce, ForceMode2D.Impulse);
         
              }
-       
-       
-        //not written yet
+        
     }
 
 }
