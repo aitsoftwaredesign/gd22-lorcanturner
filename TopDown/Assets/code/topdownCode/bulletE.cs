@@ -25,16 +25,12 @@ public class bulletE : MonoBehaviour
             //animation for bullet will be added
             if (health.playerLives < 1)
             {
-                if(gameObject)
-                {
-                    Destroy(gameObject);
-                }
+               
                 Death.dead();
             }
-            else
-            {
-                Destroy(gameObject);
-            }
+            
+            Destroy(gameObject);
+            
         }
     }
 }
