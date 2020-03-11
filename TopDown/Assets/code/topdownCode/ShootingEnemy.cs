@@ -30,34 +30,32 @@ public class ShootingEnemy : MonoBehaviour
             if (pray)
             {
                 PredictPosition();
-                 distance = Vector3.Distance(pray.transform.position, transform.position);
-                 Debug.Log("enemy is : " + distance + " units away from prey");
-                
-        
-                
-                 timer -= Time.deltaTime;
-               
-                 rotate();
-                 if(gameObject)
-                 { 
-                      if(distance < 10 && distance >= 4f)
-                      {
-                            movement();
-                      }
-                      if(timer <= 0 && distance <= 10)
-                     {
+                distance = Vector3.Distance(pray.transform.position, transform.position);
+                Debug.Log("enemy is : " + distance + " units away from prey");
+
+
+
+                timer -= Time.deltaTime;
+
+                rotate();
+                if (gameObject)
+                {
+                    if (distance < 10 && distance >= 4f)
+                    {
+                        movement();
+                    }
+                    if (timer <= 0 && distance <= 10)
+                    {
                         Shoot();
                         //    Debug.LogWarning("bullets are shooting. why cant you see them");
                         timer = 2f;
-                       }
-         
-                 }
+                    }
+
+                }
 
             }
-            else
-            {
-                DestroyImmediate(bulletPrefab, true);
-            }
+       
+            
         }
         
 

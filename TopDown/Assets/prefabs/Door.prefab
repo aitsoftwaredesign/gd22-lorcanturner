@@ -216,7 +216,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.48511857, y: 0.03615549}
-  m_ConnectedAnchor: {x: 0.24488409, y: -0.019524032}
+  m_ConnectedAnchor: {x: 0.24488342, y: -0.019524032}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -263,6 +263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7331e87fce169fb41bc01f88d0dabbc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initMass: 75
+  lockedMass: 1e+14
 --- !u!1 &4736093134508140552
 GameObject:
   m_ObjectHideFlags: 0

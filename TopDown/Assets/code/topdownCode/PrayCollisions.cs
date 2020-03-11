@@ -48,5 +48,14 @@ public class PrayCollisions : MonoBehaviour
            
             keyAmount++;
         }
+
+        if(collision.gameObject.CompareTag("health"))
+        {
+            if(health.playerLives < 5)
+            {
+                health.playerLives++;
+                Destroy(collision.gameObject);
+            }
+        }
     }
 }

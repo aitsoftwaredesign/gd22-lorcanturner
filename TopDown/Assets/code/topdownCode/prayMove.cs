@@ -55,7 +55,7 @@ public class prayMove : MonoBehaviour
         if(currentSpeed > 5)
         {
           
-            Debug.DrawRay(transform.position, predition.transform.position.normalized * 5 , Color.blue);
+            //Debug.DrawRay(transform.position, predition.transform.position.normalized * 5 , Color.blue);
         }
         else
         {

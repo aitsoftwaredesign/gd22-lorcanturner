@@ -60,10 +60,8 @@ public class petrolingenemy : MonoBehaviour
                     }
                 }
             }
-            else
-            {
-                DestroyImmediate(bulletPrefab, true);
-            }
+  
+            
         }
     }
 

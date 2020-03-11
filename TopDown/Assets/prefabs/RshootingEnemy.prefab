@@ -80,7 +80,7 @@ MonoBehaviour:
   pray: {fileID: 0}
   shEnemySpeed: 4
   firepoint: {fileID: 2747212145305606342}
-  bulletPrefab: {fileID: 9088061437327722301, guid: 785631f638f9e64408af145bffcc8e86,
+  bulletPrefab: {fileID: 7927408301316426, guid: cb940bb000c12774281f146a5896ff9c,
     type: 3}
 --- !u!50 &2747212145900875970
 Rigidbody2D:

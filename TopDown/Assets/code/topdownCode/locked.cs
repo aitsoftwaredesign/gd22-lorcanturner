@@ -5,6 +5,8 @@ using UnityEngine;
 public class locked : MonoBehaviour
 {
     bool doorLocked = true;
+    public float initMass;
+    public float lockedMass;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,11 +18,11 @@ public class locked : MonoBehaviour
     {
         if(doorLocked == false)
         {
-            gameObject.GetComponent<Rigidbody2D>().mass = 1;
+            gameObject.GetComponent<Rigidbody2D>().mass = initMass;
         }
         else
         {
-            gameObject.GetComponent<Rigidbody2D>().mass = 1000000;
+            gameObject.GetComponent<Rigidbody2D>().mass = lockedMass;
         }
 
         if (PrayCollisions.keyAmount < 1)

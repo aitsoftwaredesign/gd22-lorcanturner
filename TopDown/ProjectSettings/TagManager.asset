@@ -7,6 +7,7 @@ TagManager:
   - preditor
   - obticle
   - key
+  - health
   layers:
   - Default
   - TransparentFX
