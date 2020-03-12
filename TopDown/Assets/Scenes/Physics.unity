@@ -1206,7 +1206,6 @@ GameObject:
   - component: {fileID: 121420808}
   - component: {fileID: 121420811}
   - component: {fileID: 121420810}
-  - component: {fileID: 121420809}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1228,19 +1227,6 @@ Transform:
   m_Father: {fileID: 1341759101}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.315}
---- !u!65 &121420809
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121420807}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &121420810
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3150,7 +3136,7 @@ Transform:
   - {fileID: 1003082393}
   - {fileID: 1252964363}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &387035842
 GameObject:
@@ -4179,7 +4165,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.5644374
+  orthographic size: 3.838559
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4874,7 +4860,7 @@ WheelJoint2D:
     m_DampingRatio: 0.7
     m_Frequency: 60
     m_Angle: 0
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 1000000
@@ -4967,7 +4953,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545380688}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd90ca08ac1c2e34f8320243125a6f26, type: 3}
   m_Name: 
@@ -9172,6 +9158,8 @@ GameObject:
   - component: {fileID: 1058782922}
   - component: {fileID: 1058782924}
   - component: {fileID: 1058782923}
+  - component: {fileID: 1058782925}
+  - component: {fileID: 1058782926}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -9187,14 +9175,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058782921}
   m_LocalRotation: {x: -0, y: -0, z: 0.037320383, w: 0.9993034}
-  m_LocalPosition: {x: -2.104, y: -0.946, z: 0.15795898}
-  m_LocalScale: {x: 0.4999999, y: 0.4999999, z: 0.5}
+  m_LocalPosition: {x: 49.77625, y: 8.4305, z: 0.15795898}
+  m_LocalScale: {x: 0.3749999, y: 0.3749999, z: 0.5}
   m_Children:
   - {fileID: 1179140273}
   - {fileID: 979645224}
   - {fileID: 1483758692}
-  m_Father: {fileID: 1634630198}
-  m_RootOrder: 4
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.2780004}
 --- !u!60 &1058782923
 PolygonCollider2D:
@@ -9247,6 +9235,44 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!233 &1058782925
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058782921}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1634630197}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: -1.06, y: 0.16}
+  m_ConnectedAnchor: {x: -2.7394917, y: -0.90575534}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 160.49147
+    m_UpperAngle: 244.10898
+--- !u!114 &1058782926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058782921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4571464fc66a78a4d8986020bb2bc792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  elevation: 0
 --- !u!1 &1090961023
 GameObject:
   m_ObjectHideFlags: 0
@@ -9733,7 +9759,7 @@ Transform:
   - {fileID: 1725170332}
   - {fileID: 495446701}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1179140272
 GameObject:
@@ -10985,7 +11011,7 @@ Transform:
   m_LocalScale: {x: 20, y: 20, z: 45}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!256 &1329335829
 FrictionJoint2D:
@@ -14264,8 +14290,6 @@ GameObject:
   - component: {fileID: 1634630198}
   - component: {fileID: 1634630197}
   - component: {fileID: 1634630199}
-  - component: {fileID: 1634630200}
-  - component: {fileID: 1634630201}
   m_Layer: 0
   m_Name: tank
   m_TagString: Untagged
@@ -14309,9 +14333,8 @@ Transform:
   - {fileID: 1032034248}
   - {fileID: 1036440013}
   - {fileID: 1341759101}
-  - {fileID: 1058782922}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1634630199
 PolygonCollider2D:
@@ -14344,44 +14367,6 @@ PolygonCollider2D:
       - {x: -3.78, y: -2.15}
       - {x: 2.21, y: -2.08}
       - {x: 0.96, y: -0.43}
---- !u!233 &1634630200
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1634630196}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 1058782924}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: -2.8092988, y: -0.9092763}
-  m_ConnectedAnchor: {x: -1.4011964, y: 0.17845884}
-  m_UseMotor: 1
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: -212.68
-    m_UpperAngle: -133.00389
---- !u!114 &1634630201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1634630196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4571464fc66a78a4d8986020bb2bc792, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
-  elevation: 0
 --- !u!1 &1660939159
 GameObject:
   m_ObjectHideFlags: 0
@@ -15456,7 +15441,7 @@ WheelJoint2D:
     m_DampingRatio: 0.7
     m_Frequency: 60
     m_Angle: 0
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 1000000

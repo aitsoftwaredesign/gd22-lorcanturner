@@ -7,10 +7,12 @@ public class locked : MonoBehaviour
     bool doorLocked = true;
     public float initMass;
     public float lockedMass;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+  
+       
     }
 
     // Update is called once per frame
@@ -19,6 +21,7 @@ public class locked : MonoBehaviour
         if(doorLocked == false)
         {
             gameObject.GetComponent<Rigidbody2D>().mass = initMass;
+    
         }
         else
         {

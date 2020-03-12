@@ -5,8 +5,8 @@ using UnityEngine;
 public class barralMovement : MonoBehaviour
 {
     HingeJoint2D joint;
-    public float speed = 0;
-    public float elevation = 0;
+    public float speed;
+    public float elevation;
     //public Rigidbody2D rb;
 
     
@@ -21,25 +21,35 @@ public class barralMovement : MonoBehaviour
     void Update()
     {
         JointMotor2D motor;
-        motor = joint.motor;
-        if (Input.GetKey("w") && elevation < 20)
+        motor = joint.motor; 
+        motor.motorSpeed = speed;
+        if (Input.GetKey("w"))
         {
-            speed = -40;
-            motor.motorSpeed = speed;
-            joint.motor = motor;
-            elevation -= 0.5f;
+           
+            if (elevation > -4)
+            {
+                speed = 40;
+               
+                joint.motor = motor;
+                elevation -= 0.5f;
+            }
+            
         }
-        if (Input.GetKey("s") && elevation > 0) 
-        {  
-            speed = 40;
-            motor.motorSpeed = speed;
-            joint.motor = motor;
-            elevation += 0.5f;
+        if (Input.GetKey("s"))
+        {
+           if(elevation < 3) 
+            {  
+                speed = -40;
+               
+                joint.motor = motor;
+                elevation += 0.5f;
+            }
         }
+ 
         else 
         {
             speed = 0;
-            motor.motorSpeed = 0;
+           
             joint.motor = motor;
         }
         
