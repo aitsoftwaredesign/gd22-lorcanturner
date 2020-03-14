@@ -23,33 +23,35 @@ public class barralMovement : MonoBehaviour
         JointMotor2D motor;
         motor = joint.motor; 
         motor.motorSpeed = speed;
-        if (Input.GetKey("w"))
+
+        if (Input.GetKey("s") || Input.GetKey("w"))
         {
-           
-            if (elevation > -4)
+            if(Input.GetKey("w")&& elevation < 5)
             {
-                speed = 40;
-               
+                 speed = +40;
+                 joint.motor = motor;
+                 elevation += 0.5f;
+                motor.motorSpeed = 40;
+            }
+            if (Input.GetKey("s") && elevation > 2.5)
+            {
+                speed = -40;
                 joint.motor = motor;
                 elevation -= 0.5f;
+                motor.motorSpeed = -40;
             }
-            
-        }
-        if (Input.GetKey("s"))
-        {
-           if(elevation < 3) 
-            {  
-                speed = -40;
-               
+
+            else
+            {
+                speed = 0;
                 joint.motor = motor;
-                elevation += 0.5f;
+                elevation = 3;
+                motor.motorSpeed = speed;
             }
         }
- 
         else 
         {
             speed = 0;
-           
             joint.motor = motor;
         }
         
