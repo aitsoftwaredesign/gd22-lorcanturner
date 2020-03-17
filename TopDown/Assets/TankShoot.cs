@@ -32,6 +32,7 @@ public class TankShoot : MonoBehaviour
                 camSwitch();
                 SimpleTimer.currentTime = 0;
                 next = true;
+                soundFX.playSound("cannon");
             } 
       
         }

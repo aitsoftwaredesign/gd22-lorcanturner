@@ -35,6 +35,7 @@ public class bullet : MonoBehaviour
         if(collision.gameObject.CompareTag("obticle") || collision.gameObject.CompareTag("key"))
         {
             Destroy(gameObject);
+            soundFX.playSound("impact");
             
         }
 

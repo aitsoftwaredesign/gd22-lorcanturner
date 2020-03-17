@@ -29,12 +29,14 @@ public class tankwheelmotion : MonoBehaviour
         {
            motor.motorSpeed = -speed;
             wheel.motor = motor;
+            soundFX.playSound("driving");
         }
         else if(Input.GetKeyUp("d")||Input.GetKeyUp("a"))
         {
             motor.motorSpeed = 0;
 
             wheel.motor = motor;
+            soundFX.stopSound("cannon");
         }
         else if(Input.GetKeyDown("s"))
         {

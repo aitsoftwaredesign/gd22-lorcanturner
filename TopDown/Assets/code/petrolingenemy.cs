@@ -24,6 +24,13 @@ public class petrolingenemy : MonoBehaviour
 
     }
 
+    public enum states
+    {
+        CHASE,
+        PATROL
+    };
+    public states current = states.PATROL;
+
     // Update is called once per frame
     void Update()
     {
@@ -32,36 +39,39 @@ public class petrolingenemy : MonoBehaviour
         {
             if (pray)
             {
-                PredictPosition();
+                switch(current)
+                {
+                    case states.CHASE:
+                        PredictPosition();
+                        rotate();
+                        follow();
+                       
+                        break;
+
+                    case states.PATROL:
+                        petrol();
+                        break;
+                }
                 distance = Vector3.Distance(pray.transform.position, transform.position);
                 Debug.Log("enemy is : " + distance + " units away from prey");
-
-
-
                 timer -= Time.deltaTime;
-
-                rotate();
                 if (gameObject)
                 {
                     if (distance < 10 && distance >= 4f)
-                    {
-                       follow();
+                    {         
+                        current = states.CHASE;     
                         if (timer <= 0 && distance <= 10)
                         {
                             Shoot();
-                            //    Debug.LogWarning("bullets are shooting. why cant you see them");
                             timer = 2f;
                         }
                     }
                     else
                     {
-                        petrol();
-                        
+                        current = states.PATROL;
                     }
                 }
-            }
-  
-            
+            } 
         }
     }
 
