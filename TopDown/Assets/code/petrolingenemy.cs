@@ -6,9 +6,11 @@ public class petrolingenemy : MonoBehaviour
 {
     public Transform preditionPoint;
     public Transform pray;
-    public float shEnemySpeed = 0;
+    public float shEnemySpeed = 4;
     float speedDelta;
     float distance;
+    public float posRange;
+    public float negRange;
     public Transform firepoint;
     public GameObject bulletPrefab;
     float bulletForce = 1;
@@ -27,13 +29,15 @@ public class petrolingenemy : MonoBehaviour
     public enum states
     {
         CHASE,
-        PATROL
+        PATROL,
+        STILL
     };
     public states current = states.PATROL;
 
     // Update is called once per frame
     void Update()
     {
+        shEnemySpeed = 4;
         speedDelta = shEnemySpeed * Time.deltaTime;
         if (gameObject)
         {
@@ -45,36 +49,57 @@ public class petrolingenemy : MonoBehaviour
                         PredictPosition();
                         rotate();
                         follow();
-                       
                         break;
 
                     case states.PATROL:
                         petrol();
                         break;
+
+                    case states.STILL:
+                        PredictPosition();
+                        rotate();
+                        break;
+
                 }
                 distance = Vector3.Distance(pray.transform.position, transform.position);
                 Debug.Log("enemy is : " + distance + " units away from prey");
                 timer -= Time.deltaTime;
                 if (gameObject)
                 {
-                    if (distance < 10 && distance >= 4f)
+                    if (distance < posRange && distance > negRange)
                     {         
                         current = states.CHASE;     
-                        if (timer <= 0 && distance <= 10)
+                        if (timer <= 0 )
                         {
-                            Shoot();
+                            shoot();
                             timer = 2f;
                         }
+                    }
+                    else if (distance < negRange)
+                    {
+                        shEnemySpeed = 0;
+                        if (timer <= 0)
+                        {
+                            shoot();
+                            timer = 2f;
+
+                        }
+                        current = states.STILL;
                     }
                     else
                     {
                         current = states.PATROL;
+                        rotate();
                     }
                 }
             } 
         }
     }
 
+    public void still()
+    {
+
+    }
 
     public void petrol()
     {
@@ -111,13 +136,7 @@ public class petrolingenemy : MonoBehaviour
 
     void follow()
     {
-
-
-        // follow
-
         transform.position = Vector3.MoveTowards(transform.position, pray.position, speedDelta);
-
-
         if (Vector3.Distance(transform.position, pray.position) < 0.00f)
         {
             pray.position *= -1.0f;
@@ -148,7 +167,7 @@ public class petrolingenemy : MonoBehaviour
     {
         Transform waypoint = pattern[patternIndex];
         //rotation
-        if (distance < 10 && distance >= 4f)
+        if (distance < posRange)
         {
              if (prayMove.currentSpeed > 5)
                     {
@@ -174,7 +193,7 @@ public class petrolingenemy : MonoBehaviour
 
     }
 
-    public void Shoot()
+    public void shoot()
     {
         if (gameObject)
         {
