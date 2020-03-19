@@ -59,46 +59,46 @@ public class petrolingenemy : MonoBehaviour
                         PredictPosition();
                         rotate();
                         break;
-
                 }
+
+                checkForTransition();
                 distance = Vector3.Distance(pray.transform.position, transform.position);
                 Debug.Log("enemy is : " + distance + " units away from prey");
                 timer -= Time.deltaTime;
-                if (gameObject)
-                {
-                    if (distance < posRange && distance > negRange)
-                    {         
-                        current = states.CHASE;     
-                        if (timer <= 0 )
-                        {
-                            shoot();
-                            timer = 2f;
-                        }
-                    }
-                    else if (distance < negRange)
-                    {
-                        shEnemySpeed = 0;
-                        if (timer <= 0)
-                        {
-                            shoot();
-                            timer = 2f;
-
-                        }
-                        current = states.STILL;
-                    }
-                    else
-                    {
-                        current = states.PATROL;
-                        rotate();
-                    }
-                }
+             
             } 
         }
     }
 
-    public void still()
+    public void checkForTransition()
     {
-
+        if (gameObject)
+        {
+            if (distance < posRange && distance > negRange)
+            {
+                current = states.CHASE;
+                if (timer <= 0)
+                {
+                    shoot();
+                    timer = 2f;
+                }
+            }
+            else if (distance < negRange)
+            {
+                shEnemySpeed = 0;
+                if (timer <= 0)
+                {
+                    shoot();
+                    timer = 2f;
+                }
+                current = states.STILL;
+            }
+            else
+            {
+                current = states.PATROL;
+                rotate();
+            }
+        }
     }
 
     public void petrol()
