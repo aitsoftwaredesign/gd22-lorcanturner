@@ -8,6 +8,8 @@ TagManager:
   - obticle
   - key
   - health
+  - spinner
+  - enemy
   layers:
   - Default
   - TransparentFX

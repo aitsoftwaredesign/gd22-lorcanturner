@@ -6,13 +6,16 @@ public class control : MonoBehaviour
 {
     
     public float speed = 0.5f;
-    public GameObject bullet;
+    public float xMove = 0;
+    public float yMove = 0;
+    public float zMove = 0;
+    public Rigidbody rb;
 
     public float timer;
     // Start is called before the first frame update
     void Start()
     {
-       
+        rb.GetComponent<Rigidbody>();
     
     }
 
@@ -22,45 +25,67 @@ public class control : MonoBehaviour
 
         timer += Time.deltaTime;
         float deltaSpeed = speed * Time.deltaTime;
-        if(bullet.gameObject)
-        {
-           
-             if(timer > 2)
-             {
-                  timer = 0;
-                     DestroyImmediate(bullet.gameObject, true);
-             }
-        }
+        controlCheck();
        
-       // Debug.Log(timer);
+
+
+    }
+
+    public void controlCheck()
+    {
+        // Debug.Log(timer);
         if (Input.GetKey("space"))
         {
-            jump();
+            yMove = speed;
+            rb.useGravity = false;
         }
-        else if (Input.GetKey("a"))
+        else
         {
-             transform.Translate(  -speed ,0, 0);
+            yMove = 0;
+            rb.useGravity = true;
         }
-        else if (Input.GetKey("d"))
+
+
+        if (Input.GetKey("a"))
         {
-              transform.Translate( speed, 0, 0);
+            xMove = -speed;
         }
-        else if (Input.GetKey("s"))
+        if (Input.GetKey("d"))
         {
-            transform.Translate(0, 0, -speed);
+            xMove = speed;
+        }
+        if (Input.GetKeyUp("a"))
+        {
+            xMove = 0;
+        }
+        if (Input.GetKeyUp("d"))
+        {
+            xMove = 0;
+        }
+
+
+
+        if (Input.GetKey("s"))
+        {
+            zMove = -speed;
 
         }
-        else if (Input.GetKey("w"))
+        if (Input.GetKey("w"))
         {
-            transform.Translate(0, 0, speed);
+            zMove = speed;
         }
-      
+        if (Input.GetKeyUp("w"))
+        {
+            zMove = 0;
+        }
+        if (Input.GetKeyUp("s"))
+        {
+            zMove = 0;
+        }
+
+        transform.Translate(xMove, yMove, zMove);
 
     }
 
-    public void jump()
-    {
 
-        transform.Translate(0,0.5f, 0);
-    }
 }

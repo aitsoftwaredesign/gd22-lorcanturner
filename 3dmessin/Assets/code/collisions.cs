@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bullet : MonoBehaviour
+public class collisions : MonoBehaviour
 {
-    public void onCollisionEnter(Collision  collision )
+    // Start is called before the first frame update
+    void onTriggerEnter(collisions collision)
     {
-        Debug.Log("collision");
         if(collision.gameObject.CompareTag("obstical"))
         {
-            Destroy(gameObject);
+            Debug.Log("collision");
         }
     }
 }

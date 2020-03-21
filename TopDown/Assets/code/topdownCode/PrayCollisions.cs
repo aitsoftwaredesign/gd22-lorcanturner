@@ -57,6 +57,12 @@ public class PrayCollisions : MonoBehaviour
                 Destroy(collision.gameObject);
             }
         }
+
+        if(collision.gameObject.CompareTag("spinner"))
+        {
+            health.playerLives -= 1;
+            
+        }
     }
 
 }

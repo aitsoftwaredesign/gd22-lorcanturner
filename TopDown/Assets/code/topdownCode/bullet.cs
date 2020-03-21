@@ -9,11 +9,18 @@ public class bullet : MonoBehaviour
 {
     
     public static int kills = 0;
-
+    public GameObject pred;
     void update()
     {
 
+        if (kills > 10)
+        {
+            Debug.Log("hella kills my dude!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            kills = 0;
+        }
     }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("preditor"))
@@ -21,15 +28,17 @@ public class bullet : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
             kills = kills + 1;
+       
+               
 
+        }
 
-            if (kills > 10)
-            {
-                Debug.Log("hella kills my dude!");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                kills = 0;
-            }
-
+        if(collision.gameObject.CompareTag("enemy"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+            kills += 1;
+            Instantiate(pred, gameObject.transform.position, gameObject.transform.rotation);
         }
         
         if(collision.gameObject.CompareTag("obticle") || collision.gameObject.CompareTag("key"))
@@ -51,8 +60,14 @@ public class bullet : MonoBehaviour
 
         }
 
-       
-        
+
+        if (collision.gameObject.CompareTag("spinner"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+            kills += 1;
+        }
+
 
     }
 }
