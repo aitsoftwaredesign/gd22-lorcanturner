@@ -12062,6 +12062,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pray
       objectReference: {fileID: 0}
+    - target: {fileID: 1761901220795554058, guid: f53d6f28fc1fed947a69f320b2ef0518,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.82
+      objectReference: {fileID: 0}
     - target: {fileID: 1761901220626185910, guid: f53d6f28fc1fed947a69f320b2ef0518,
         type: 3}
       propertyPath: m_LocalPosition.x
