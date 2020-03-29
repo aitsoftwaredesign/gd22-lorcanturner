@@ -10,6 +10,7 @@ TagManager:
   - health
   - spinner
   - enemy
+  - time
   layers:
   - Default
   - TransparentFX

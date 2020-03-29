@@ -9,16 +9,11 @@ public class bullet : MonoBehaviour
 {
     
     public static int kills = 0;
+    public static float  maxKills;
     public GameObject pred;
     void update()
     {
 
-        if (kills > 10)
-        {
-            Debug.Log("hella kills my dude!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            kills = 0;
-        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -58,6 +53,11 @@ public class bullet : MonoBehaviour
                 Destroy(collision.gameObject);
             }
 
+        }
+
+        if(collision.gameObject.CompareTag("time"))
+        {
+            Destroy(gameObject);
         }
 
 

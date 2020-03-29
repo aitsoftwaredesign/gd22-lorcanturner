@@ -33,5 +33,10 @@ public class bulletE : MonoBehaviour
             
         }
 
+        if(collision.gameObject.CompareTag("time"))
+        {
+            Destroy(gameObject);
+        }
+
     }
 }

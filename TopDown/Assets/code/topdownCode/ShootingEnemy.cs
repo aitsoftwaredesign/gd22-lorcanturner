@@ -31,7 +31,7 @@ public class ShootingEnemy : MonoBehaviour
             {
                 PredictPosition();
                 distance = Vector3.Distance(pray.transform.position, transform.position);
-                Debug.Log("enemy is : " + distance + " units away from prey");
+               // Debug.Log("enemy is : " + distance + " units away from prey");
 
 
 
@@ -75,8 +75,16 @@ public class ShootingEnemy : MonoBehaviour
 
 
         // follow
-       
-        transform.position = Vector3.MoveTowards(transform.position, pray.position, speedDelta);
+
+        if (SimpleTimer.slow == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, pray.position, speedDelta * SimpleTimer.slowMo);
+        }
+        else
+        {
+            transform.position = Vector3.MoveTowards(transform.position, pray.position, speedDelta);
+        }
+      
 
 
         if (Vector3.Distance(transform.position, pray.position) < 0.00f)
@@ -126,7 +134,16 @@ public class ShootingEnemy : MonoBehaviour
 
     public void Shoot()
     {
-            if(gameObject)
+        if (SimpleTimer.slow == true)
+        {
+            bulletForce = 0.1f;
+        }
+        else
+        {
+            bulletForce = 1;
+        }
+
+        if (gameObject)
              {
               GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);
               Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

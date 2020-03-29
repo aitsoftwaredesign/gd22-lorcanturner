@@ -1589,16 +1589,6 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 366284542}
-    - target: {fileID: 5584586949056435842, guid: b19e1f664eda0304591718a039266efa,
-        type: 3}
-      propertyPath: m_ProbeAnchor
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5584586949056435852, guid: b19e1f664eda0304591718a039266efa,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 8670bb3caf88af341a5843411725dcf2, type: 2}
     - target: {fileID: 5584586948642503728, guid: b19e1f664eda0304591718a039266efa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1609,6 +1599,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 5584586949056435842, guid: b19e1f664eda0304591718a039266efa,
+        type: 3}
+      propertyPath: m_ProbeAnchor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5584586949056435852, guid: b19e1f664eda0304591718a039266efa,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8670bb3caf88af341a5843411725dcf2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b19e1f664eda0304591718a039266efa, type: 3}
 --- !u!1 &291710346
@@ -2320,6 +2320,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7927408301316426, guid: 4bbbaf51a2c63974c96641d645fed4d0,
     type: 3}
   bulletForce: 2
+  maxKills: 10
 --- !u!227 &366284547
 BillboardRenderer:
   m_ObjectHideFlags: 0

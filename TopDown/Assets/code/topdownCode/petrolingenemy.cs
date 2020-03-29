@@ -63,7 +63,7 @@ public class petrolingenemy : MonoBehaviour
 
                 checkForTransition();
                 distance = Vector3.Distance(pray.transform.position, transform.position);
-                Debug.Log("enemy is : " + distance + " units away from prey");
+                //Debug.Log("enemy is : " + distance + " units away from prey");
                 timer -= Time.deltaTime;
              
             } 
@@ -73,7 +73,7 @@ public class petrolingenemy : MonoBehaviour
     public void checkForTransition()
     {
         if (gameObject)
-        {
+        {  
             if (distance < posRange && distance > negRange)
             {
                 current = states.CHASE;
@@ -131,12 +131,28 @@ public class petrolingenemy : MonoBehaviour
 
         Vector3 dist = deltaSpeed * range.normalized;
 
-        transform.position = Vector3.MoveTowards(transform.position, waypoint.position, speedDelta);
+        if(SimpleTimer.slow == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, waypoint.position, speedDelta * SimpleTimer.slowMo);
+        }
+        else
+        {
+            transform.position = Vector3.MoveTowards(transform.position, waypoint.position, speedDelta);
+        }
+       
     }
 
     void follow()
     {
-        transform.position = Vector3.MoveTowards(transform.position, pray.position, speedDelta);
+        if(SimpleTimer.slow == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, pray.position, speedDelta * SimpleTimer.slowMo);
+        }
+        else
+        {
+            transform.position = Vector3.MoveTowards(transform.position, pray.position, speedDelta);
+        }
+        
         if (Vector3.Distance(transform.position, pray.position) < 0.00f)
         {
             pray.position *= -1.0f;
@@ -195,6 +211,14 @@ public class petrolingenemy : MonoBehaviour
 
     public void shoot()
     {
+        if (SimpleTimer.slow == true)
+        {
+            bulletForce = 0.1f;
+        }
+        else
+        {
+            bulletForce = 1;
+        }
         if (gameObject)
         {
             GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);

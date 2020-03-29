@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class spin : MonoBehaviour
 {
-    public float rpm = 300;
+    public float rpm = 500;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +16,14 @@ public class spin : MonoBehaviour
     void Update()
     {
         float deltaSpeed = rpm * Time.deltaTime;
-        gameObject.transform.Rotate(0, 0, deltaSpeed);
+        if(SimpleTimer.slow == true)
+        {
+            gameObject.transform.Rotate(0, 0, deltaSpeed * SimpleTimer.slowMo);
+        }
+        else
+        {
+            gameObject.transform.Rotate(0, 0, deltaSpeed);
+        }
+       
     }
 }

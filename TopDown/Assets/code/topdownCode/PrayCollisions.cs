@@ -63,6 +63,23 @@ public class PrayCollisions : MonoBehaviour
             health.playerLives -= 1;
             
         }
+        if(collision.gameObject.CompareTag("enemy"))
+        {
+            health.playerLives = health.playerLives - 1;
+
+            if (health.playerLives < 1)
+            {
+                Destroy(gameObject);
+                //use this for the restart button
+                Death.dead();
+            }
+        }
+        if (collision.gameObject.CompareTag("time"))
+        {
+            Destroy(collision.gameObject);
+            SimpleTimer.countDown = 150;
+        }
     }
+
 
 }

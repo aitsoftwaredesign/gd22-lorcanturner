@@ -40,7 +40,15 @@ public class PredMove : MonoBehaviour
     void follow()
     {
        float speedDelta = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, prayObj.position, speedDelta);
+        if(SimpleTimer.slow == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, prayObj.position, speedDelta * SimpleTimer.slowMo);
+        }
+        else
+        {
+            transform.position = Vector3.MoveTowards(transform.position, prayObj.position, speedDelta);
+        }
+        
 
 
         if (Vector3.Distance(transform.position, prayObj.position) < 0.00f)

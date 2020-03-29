@@ -2074,6 +2074,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7927408301316426, guid: 4bbbaf51a2c63974c96641d645fed4d0,
     type: 3}
   bulletForce: 2
+  maxKills: 10
 --- !u!227 &366284547
 BillboardRenderer:
   m_ObjectHideFlags: 0
