@@ -8,6 +8,7 @@ TagManager:
   - health
   - obstical
   - bullet
+  - pickup
   layers:
   - Default
   - TransparentFX

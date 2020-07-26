@@ -22,8 +22,6 @@ public class TankShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
         if (SimpleTimer.currentTime > 6)
         {
             if (Input.GetKeyDown("space"))
@@ -56,7 +54,6 @@ public class TankShoot : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation) ;
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firepoint.up * bulletForce, ForceMode2D.Impulse);
-        
     }
 
     public void camSwitch()
